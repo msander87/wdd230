@@ -154,6 +154,7 @@ footer p a:hover{
         margin-top: 0px;
     }
     main ul{
+        text-align: left;
         margin-top: 0px;
         padding-bottom: 100px;
     }
