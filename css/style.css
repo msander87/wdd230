@@ -109,7 +109,7 @@ footer p a:hover{
 @media screen and (max-width: 600px) {
     body {
         
-        background-color: white;
+        background-color: yellow;
         font-family: "Lato", Helvetica, Arial, sans-serif;
         font-size: 18px;
         color: #444;
@@ -130,7 +130,7 @@ header{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: -10px;
+    margin-top: -5px;
 }
    header img{
        float: right;
