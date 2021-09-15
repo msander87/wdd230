@@ -108,7 +108,7 @@ footer p a:hover{
 
 @media screen and (max-width: 600px) {
     body {
-        margin-top: -25px;
+        
         background-color: white;
         font-family: "Lato", Helvetica, Arial, sans-serif;
         font-size: 18px;
@@ -119,6 +119,7 @@ footer p a:hover{
     }
     
 header{
+    margin-top: -25px;
     background-color: #002d5f;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     border-radius: 0px;
