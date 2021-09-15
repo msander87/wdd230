@@ -120,7 +120,7 @@ footer p a:hover{
     }
     
     header{
-        
+        text-align: center;
         background-color: #002d5f;
         font-family: "Montserrat", Helvetica, Arial, sans-serif;
         border-radius: 0px;
@@ -141,6 +141,7 @@ footer p a:hover{
         float: none;
         width: 280px;
         margin-top: 10px;
+        padding-left: 15px;
         border: 3px solid #e5ae04;
         box-shadow: 0px 0px 15px;
     }
