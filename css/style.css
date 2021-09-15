@@ -134,9 +134,9 @@ header{
 }
    header img{
        float: right;
-       width: 200px;
-       margin-top: -100px;
-       margin-right: 20px;
+       width: 100px;
+       margin-top: -10px;
+       margin-right: 5px;
        border: 3px solid #e5ae04;
        box-shadow: 0px 0px 15px;
    }
