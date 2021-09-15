@@ -138,6 +138,7 @@ footer p a:hover{
         padding-right: 30px;
     }
     main img{
+        float: none;
         width: 280px;
         margin-top: 10px;
         border: 3px solid #e5ae04;
