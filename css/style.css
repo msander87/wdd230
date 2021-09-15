@@ -113,6 +113,8 @@ footer p a:hover{
         font-size: 18px;
         color: #444;
         margin: 0;
+        box-shadow: none;
+        border-radius: 0px;
     }
     
 header{
