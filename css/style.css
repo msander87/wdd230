@@ -124,11 +124,11 @@ header{
   }
   
   header h1{
-      color: white;
-      padding-left: 150px;
-      padding-top: 30px;
-      padding-bottom: 30px;;
-  }
+    color: white;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;;
+}
    header img{
        float: right;
        width: 200px;
