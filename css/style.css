@@ -127,8 +127,8 @@ header{
   header h1{
     color: white;
     padding-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
    header img{
        float: right;
