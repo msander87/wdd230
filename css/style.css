@@ -115,7 +115,7 @@ footer p a:hover{
 header{
     background-color: #002d5f;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    
+    border-radius: 0px;
   }
   
   header h1{
