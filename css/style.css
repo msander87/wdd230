@@ -18,14 +18,14 @@ body {
 }
 
 h1, h2{
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 
 /*header*/
 header{
   background-color: #002d5f;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   border-radius: 15px 15px 0px 0px;
 }
 
