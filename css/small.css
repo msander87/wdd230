@@ -1,0 +1,108 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+img {
+    max-width: 100%;
+}   
+body {
+  background-color: white;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #444;  
+}
+
+h1, h2{
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+h1{
+    font-size: 1.5rem;
+}
+
+
+/*header*/
+header{
+  background-color: #002d5f;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  border-radius: 15px 15px 0px 0px;
+}
+
+header h1{
+    color: white;    
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+ 
+header img{
+    float: right;
+    width: 200px;
+    margin-top: -100px;
+    margin-right: 20px;
+    border: 3px solid #e5ae04;
+    box-shadow: 0px 0px 15px;
+} 
+
+
+ /*main*/
+
+main{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main hr{
+    margin-top: -15px;
+}
+main ul{
+    padding-bottom: 100px;
+}
+main ul li a{
+    text-decoration: none;
+    color:#002d5f;
+    font-weight: bold;
+}
+main ul li a:hover{
+   
+    color:#77afdb;
+}
+
+
+
+
+
+
+
+
+
+ /*footer*/
+ footer{
+    background-color: #002d5f;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    color: white;
+ }
+ footer p{
+     padding-top: 15px;
+ }
+footer p a{
+    text-decoration: none;
+    color:#77afdb;
+    
+}
+footer p a:hover{
+   
+    color:#e5ae04;
+}
+
+ .updated{
+     margin-top: -30px;
+     padding-bottom: 15px;
+     font-size: 15px;
+     color:#e5ae04;
+ }
+
+
+
+
+
