@@ -19,7 +19,7 @@ h1, h2{
 h1{
     font-size: 1.5rem;
     color: white;    
-    margin: 15px auto;
+    padding: 15px auto;
 }
 h2{
     font-size: 1.3rem;
