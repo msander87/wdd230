@@ -13,6 +13,7 @@
         padding-bottom: 30px;
     }
     header{
+        text-align: unset;
         border-radius: 15px 15px 0px 0px;
     }
     header img{

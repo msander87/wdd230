@@ -26,6 +26,7 @@ h1{
 
 /*header*/
 header{
+  text-align: center;
   background-color: #002d5f;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
