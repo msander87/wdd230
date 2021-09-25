@@ -51,7 +51,7 @@ main{
     padding-left: 15px;
     padding-right: 15px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns:  1fr;
     grid-gap: 1em;
 }
 .column{
