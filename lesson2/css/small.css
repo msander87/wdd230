@@ -107,6 +107,21 @@ main{
  footer p{
      padding-top: 15px;
  }
+ footer p a{
+    text-decoration: none;
+    color:#77afdb;
+    
+}
+footer p a:hover{
+   
+    color:#e5ae04;
+}
+
+ .updated{
+     margin-top: -20px;
+     font-size: 15px;
+     color:#e5ae04;
+ }
 
 
 
