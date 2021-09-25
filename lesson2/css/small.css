@@ -56,23 +56,47 @@ main{
 }
 .column{
     box-shadow: 0px 0px 15px;
+    border: 1px solid #797a7c;
 }
 .title{
-    color: #002d5f;
+    color: white;
+    background-color: #002d5f;
     font-weight: bold;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
 }
-.column a{
+.company{
+    text-align: center;
+    margin-top: -15px;
+}
+.link{
+    text-align: center;
+    margin-top: -17px;
+    margin-bottom: 10px;
+}
+.link a{
+    
     text-decoration: none;
     color:#002d5f;
     font-weight: bold;
 }
-.column a:hover{
+.link a:hover{
    
     color:#77afdb;
 }
-
-
+.bottom{
+    padding-left: 5px;
+    padding-right: 7px;
+}
+.column img{
+    border: 1px solid #797a7c;
+}
+.description{
+    padding-left: 5px;
+    padding-right: 5px;
+}
  /*footer*/
  footer{
     background-color: #002d5f;
