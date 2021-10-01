@@ -27,6 +27,11 @@ header{
 h1, h2, h3, h4, h5, h6{
   font-family: "Quicksand", Helvetica, Arial, sans-serif;
 }
+main img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 nav {
 	background-color: #f58634;
@@ -71,9 +76,6 @@ nav ul li a:hover {
 main{
     padding-left: 15px;
     padding-right: 15px;
-}
-main img{
-    width: 50%;
 }
 
 
