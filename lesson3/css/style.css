@@ -20,16 +20,19 @@ body {
 header{
     color: white;
     text-align: center;
-    background-color: #0098da;
+    background-color: #4b4b4d;
     font-family: "Quicksand", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
   font-family: "Quicksand", Helvetica, Arial, sans-serif;
 }
-main img{
-    margin-top: 15px;
-    margin-bottom: 15px;
+h1, h2{
+    text-align: center;
+}
+header img{
+    padding: 15px 0px;
+    width: 80%;
 }
 
 
@@ -55,13 +58,13 @@ nav ul li a {
 	
 }
 nav ul li a:hover {
-    background-color: #4b4b4d;
+    background-color: #0098da;
 	
 	
 }
 .active {
-	background-color: #4b4b4d;
-    color: #0098da;
+	background-color: #0098da;
+    color: #4b4b4d;
     font-weight: bold;
 }
 
@@ -78,7 +81,27 @@ main{
     padding-right: 15px;
 }
 
-
+.color1{
+    padding: 15px 15px 15px 15px;
+    background-color: #4b4b4d;
+    color: white;
+}
+.color2{
+    padding: 15px 15px 15px 15px;
+    background-color: #0098da;
+    
+}
+.color3{
+    padding: 15px 15px 15px 15px;
+    background-color: #f58634;
+    
+}
+.color4{
+    padding: 15px 15px 15px 15px;
+    background-color: #fff;
+    border: 1px solid #4b4b4d;
+    
+}
 
 
 
@@ -103,11 +126,14 @@ footer p a:hover{
     color:#f58634;
 }
 
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 39.5em) {
 	nav ul { 
         
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(194px, 1fr));
+    }
+    header img{
+        width: 400px;
     }
 }
 
