@@ -1,1 +1,117 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Quicksand:wght@500&display=swap');
+
+
+
+img {
+    max-width: 100%;
+}   
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #444;  
+}
+
+/*header*/
+header{
+    color: white;
+    text-align: center;
+    background-color: #0098da;
+    font-family: "Quicksand", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Quicksand", Helvetica, Arial, sans-serif;
+}
+
+nav {
+	background-color: #f58634;
+	text-align: center;
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.05rem;
+	
+}
+nav ul li a:hover {
+    background-color: #4b4b4d;
+	
+	
+}
+.active {
+	background-color: #4b4b4d;
+    color: #0098da;
+    font-weight: bold;
+}
+
+
+
+ 
+ 
+
+
+ /*main*/
+
+main{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main img{
+    width: 50%;
+}
+
+
+
+
+
+
+ /*footer*/
+ footer{
+    background-color: #4b4b4d;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: white;
+ }
+ footer p{
+     padding-top: 15px;
+ }
+ footer p a{
+    text-decoration: none;
+    color:#0098da;
+    
+}
+footer p a:hover{
+   
+    color:#f58634;
+}
+
+@media only screen and (min-width: 37.5em) {
+	nav ul { 
+        
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(194px, 1fr));
+    }
+}
+
+
+
+
+
+
 
