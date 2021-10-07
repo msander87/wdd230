@@ -37,6 +37,7 @@ h1{
 }
 h2{
     text-align: center;
+    font-size: 1.2rem;
 }
 
 header section{
@@ -104,7 +105,7 @@ nav ul li a:hover {
 
 
 .content-box{
-    padding: 10px 20px;
+    padding: 20px 20px;
     border: 1px solid #f58634;
     font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
     margin-top: 10px;
@@ -120,19 +121,14 @@ nav ul li a:hover {
     font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
     text-align: center;
     color: white;
+    font-size: 0.9rem;
  }
  footer p{
      padding-top: 15px;
  }
- footer p a{
-    text-decoration: none;
-    color:#0098da;
-    
-}
-footer p a:hover{
-   
-    color:#f58634;
-}
+ #currentDate{
+     margin-top: -25px;
+ }
 
 
 

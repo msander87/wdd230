@@ -1,12 +1,34 @@
-@media only screen and (min-width: 32.5em) {
-	.nav ul {
+@media only screen and (min-width: 37em) {
+	nav ul {
 		display: flex;
 	}
-	.nav ul li {
+	nav ul li {
 		display: block;
 		flex: 1 1 auto;
 	}
-	.nav ul li:first-child {
+	nav ul li:first-child {
 		display: none;
 	}
+    nav ul {
+		max-width: 37em;
+        margin: 0 auto;
+	}
+	
+    main{
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 37em;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 1.9rem;
+    }
+    h2{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    header img{
+        width: 120px;
+    }
+    
 }

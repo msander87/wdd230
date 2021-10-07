@@ -1,9 +1,17 @@
 
 try{
     const options = { 
-        year: 'numeric'        
+        weekday: 'long',
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+              
     }; 
-    document.getElementById("year").textContent = new Date().toLocaleDateString("en-US", options);
+    const theYear = {
+        year: 'numeric'
+    }
+    document.getElementById("currentDate").textContent = new Date().toLocaleDateString("en-UK", options);
+    document.getElementById("year").textContent = new Date().toLocaleDateString("en-UK", theYear);
 
 }
 catch(e){
