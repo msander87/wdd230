@@ -46,6 +46,7 @@ header section{
     display: flex;
 	flex-direction: column;
     margin-bottom: 5px;
+    padding-right: 10px;
 }
 .motto{
     font-style: italic;
@@ -87,15 +88,29 @@ nav ul li a:hover {
 	
 }
 .active {
-	background-color: #0098da;
-    color: #4b4b4d;
-    font-weight: bold;
+	pointer-events: none;
+    background-color:  #4b4b4d;
+    
 }
+
 
 .responsive li {
 	display: block;
 }
-
+.menu{
+    color: #f58634;
+    background-color: #3E3E3E;
+}    
+.menu:hover{
+    color:white;
+    background-color: #3E3E3E;
+}
+.open::after{
+    content: " Menu";
+}
+.close::after{
+    content: " Close";
+}
 
  
  
