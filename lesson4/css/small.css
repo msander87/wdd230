@@ -89,7 +89,7 @@ nav ul li a:hover {
 }
 .active {
 	pointer-events: none;
-    background-color:  #4b4b4d;
+    background-color: rgba(0, 0, 0, 30%);
     
 }
 
