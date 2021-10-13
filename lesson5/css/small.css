@@ -1,145 +1,87 @@
-/* Fonts from Google Fonts - more at https://fonts.google.com */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Quicksand:wght@500&display=swap');
-
-
-
-img {
-    max-width: 100%;
-}   
-body {
-  max-width: 960px;
-  margin: 0 auto;
-  background-color: white;
-  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  color: #444;  
-}
-
-/*header*/
-header{
-    color: white;
-    text-align: center;
-    background-color: #4b4b4d;
-    font-family: "Quicksand", Helvetica, Arial, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6{
-  font-family: "Quicksand", Helvetica, Arial, sans-serif;
-}
-h1, h2{
-    text-align: center;
-}
-header img{
-    padding: 15px 0px;
-    width: 80%;
-}
-
-
-nav {
-	background-color: #f58634;
-	text-align: center;
-	
-}
-nav ul {
-	list-style-type: none;
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 }
-nav ul li a {
-    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 1.05rem;
-	
-}
-nav ul li a:hover {
-    background-color: #0098da;
-	
-	
-}
-.active {
-	background-color: #0098da;
-    color: #4b4b4d;
-    font-weight: bold;
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-family: Acme, Arial, sans-serif;
 }
 
-
-
- 
- 
-
-
- /*main*/
-
-main{
-    padding-left: 15px;
-    padding-right: 15px;
+h1 {
+	font-size: 1.5rem;
 }
 
-.color1{
-    padding: 15px 15px 15px 15px;
-    background-color: #4b4b4d;
-    color: white;
-}
-.color2{
-    padding: 15px 15px 15px 15px;
-    background-color: #0098da;
-    
-}
-.color3{
-    padding: 15px 15px 15px 15px;
-    background-color: #f58634;
-    
-}
-.color4{
-    padding: 15px 15px 15px 15px;
-    background-color: #fff;
-    border: 1px solid #4b4b4d;
-    
+main {
+	margin: 0.5rem auto;
+	border: 1px solid #999;
+	padding: 0.5rem;
+	background-color: #bed;
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 95%;
 }
 
+input,
+button {
+	padding: 0.35rem;
+	margin-left: 1rem;
+	font-size: 1.1rem;
+}
+.del-btn {
+    color: red;
+	padding: 0.35rem 0.45rem;
+	margin-left: 1rem;
+	font-size: 1.1rem;
+}
+input {
+	width: 200px;
+}
 
+label {
+	font-size: 0.9rem;
+}
+.listcontainer {
+	border: 1px solid #bbb;
+	margin: 1rem;
+	padding: 1rem;
+}
 
+.list {
+	margin: 0.2rem;
+}
 
- /*footer*/
- footer{
-    background-color: #4b4b4d;
-    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+ul {
+	margin: 1rem;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+}
+.error-p{
+    color: red;
+    font-style: italic;
+    font-size: 0.8rem;
     text-align: center;
-    color: white;
- }
- footer p{
-     padding-top: 15px;
- }
- footer p a{
-    text-decoration: none;
-    color:#0098da;
-    
 }
-footer p a:hover{
-   
-    color:#f58634;
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	main {
+		width: 480px;
+	}
 }
-
-@media only screen and (min-width: 37.5em) {
-	nav ul { 
-        
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(194px, 1fr));
-    }
-    header img{
-        width: 400px;
-    }
-}
-
-
-
-
-
 
 
