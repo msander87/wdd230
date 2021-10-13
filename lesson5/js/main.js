@@ -12,7 +12,7 @@
         errorP.innerHTML = "please enter a book and chapter"
         errorP.setAttribute('class', 'error-p')
         mainElement.appendChild(errorP);
-        
+        input.focus();
     }
     else{        
         input.value = '';
