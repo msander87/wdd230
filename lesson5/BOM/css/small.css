@@ -32,6 +32,7 @@ input,
 button {
 	padding: 0.35rem;
 	margin-left: 1rem;
+	margin-top: 0.3rem;
 	font-size: 1.1rem;
 }
 .del-btn {
@@ -44,7 +45,8 @@ input {
 	width: 200px;
 }
 
-label {
+.input label {
+	margin-left: 1rem;
 	font-size: 0.9rem;
 }
 .listcontainer {
