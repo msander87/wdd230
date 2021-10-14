@@ -1,0 +1,13 @@
+@media only screen and (min-width: 56em) {
+	nav ul {
+		max-width: 960px;
+        
+	}
+	
+    main{
+        
+        max-width: 960px;
+        
+    }
+    
+}
