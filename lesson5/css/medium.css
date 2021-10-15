@@ -1,6 +1,8 @@
-@media only screen and (min-width: 37em) {
+@media only screen and (min-width: 35em) {
 	nav ul {
 		display: flex;
+        max-width: 37em;
+        margin: 0 auto;
 	}
 	nav ul li {
 		display: block;
@@ -9,10 +11,10 @@
 	nav ul li:first-child {
 		display: none;
 	}
-    nav ul {
-		max-width: 37em;
-        margin: 0 auto;
-	}
+    nav ul li a {
+        font-size: .8rem;
+        
+    }
 	
     main{
         padding-left: 15px;
@@ -30,5 +32,95 @@
     header img{
         width: 120px;
     }
+    .h3{
+        display: block;
+        text-align: center;
+        margin: 15px 10px 5px 10px;
+    }
+
+   
+
+    .wsummary{
+        position: absolute;
+        top: 10px;
+        left: 10px;      
+        background-color: rgba(245, 134, 52, 75%);
+        box-shadow: 0px 0px 5px 2px #444;
+    }
+
+    .wsummary section h4{
+        margin: 0;
+        padding-bottom: 0.5rem; 
+        color: #444;
+    }
+    .wsummary section p{
+        font-size: 0.9rem;
+        margin: 0;
+    }    
+
+
+
+
+
+
+    .forecast{
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        
+    }
+    .forecast section{
+        text-align: center;
+        border: 1px solid #f58634;
+        flex: 1 1 auto;
+        margin: 0 2px;
+    }
+    .forecast section h5{
+        margin: 0;
+        padding: 10px;
+        background-color: #f58634;
+    }
+    .forecast section img{
+        margin: 0;
+        padding: 5px;
+        width: 80%;
+        
+    }
+    .forecast section p{
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 0 3px;  
+    }
+    .forecast section p:last-child{
+        margin-bottom: 10px;
+    }
     
+    
+
+    .article{
+        border: 1px solid #f58634;
+    }
+
+    .article section img{
+        float: right;
+        max-width: 40%;
+        margin-top: 35px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .article section h4{
+        font-size: 1.3rem;
+        margin: 0px 0px 10px 0px;
+    }
+    
+    .article section p{
+        
+        font-size: 1.05rem;
+        
+    }
+    
+
+
 }

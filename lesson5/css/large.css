@@ -3,10 +3,41 @@
 		max-width: 960px;
         
 	}
-	
+	nav ul li a {
+        font-size: 1rem;
+        
+    }
+
     main{
         
         max-width: 960px;
+        
+    }
+    .wsummary section h4{
+        font-size: 1.4rem;
+        margin: 0;
+        padding-bottom: 0.5rem; 
+        color: #444;
+    }
+    .wsummary section p{
+        font-size: 1.1rem;
+        margin: 0;
+    } 
+    .wsummary section{
+        
+        line-height: 130%;
+    
+    }
+    .wsummary{
+        
+        top: 25px;
+        left: 25px;      
+        
+    }
+ 
+    .article section p{
+        
+        font-size: 1.1rem;
         
     }
     

@@ -79,7 +79,7 @@ nav ul li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-size: 1.05rem;
+	font-size: .95rem;
 	
 }
 nav ul li a:hover {
@@ -112,12 +112,12 @@ nav ul li a:hover {
     content: " Close";
 }
 
- 
- 
+
 
 
  /*main*/
 
+ 
 
 .content-box{
     padding: 20px 20px;
@@ -125,7 +125,77 @@ nav ul li a:hover {
     font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
     margin-top: 10px;
 }
+.ws-containner{
+    position: relative;
+    margin: 0;
+    
+}
 
+.wsummary{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f58634;
+}
+.wsummary section{
+    padding: 1rem;
+    color: white;
+    line-height: 90%;
+
+}
+.wsummary section h4{
+    margin: 0;
+    padding-bottom: 0.5rem; 
+    color: #444;
+}
+.wsummary section p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.wsummary section p span{
+    color: #444;    
+}
+
+
+
+
+
+
+.h3{
+    display: none;
+}
+.forecast{
+    display: none;
+}
+
+
+
+
+
+
+
+.article{
+    margin: 10px 0px;
+    
+}
+.article section{
+    padding: 20px;
+    text-align: center;
+    
+}
+.article section img{
+    margin: 0 auto;
+    box-shadow: 0px 0px 3px 1px #444;
+}
+.article section h4{
+    text-align: left;
+    margin: 10px 0px;
+}
+.article section p{
+    text-align: left;
+    font-size: 1rem;
+    margin: 5px 0px;
+}
 
 
 
