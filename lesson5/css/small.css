@@ -18,6 +18,21 @@ body {
 h1, h2, h3, h4, h5, h6{
     font-family: "Quicksand", Helvetica, Arial, sans-serif;
   }
+.sb-container{
+    display: none;
+    background-color: #0098da;
+}
+.sat-banner{
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+.sat-banner p{
+    margin: 0;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
 /*header*/
 header{
     margin: 0 auto;
@@ -175,7 +190,7 @@ nav ul li a:hover {
 
 
 .article{
-    margin: 10px 0px;
+    margin: 20px 0px;
     
 }
 .article section{
@@ -208,10 +223,10 @@ nav ul li a:hover {
     color: white;
     font-size: 0.9rem;
  }
- .contact{
-     background-color: rgba(0, 0, 0, 30%);
-     
- }
+ .contact-background{
+    background-color: rgba(0, 0, 0, 30%);
+}
+
  .contact-information{
     padding: 10px 20px;
     text-align: left;
