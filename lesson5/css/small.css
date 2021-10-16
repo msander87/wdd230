@@ -208,6 +208,41 @@ nav ul li a:hover {
     color: white;
     font-size: 0.9rem;
  }
+ .contact{
+     background-color: rgba(0, 0, 0, 30%);
+     
+ }
+ .contact-information{
+    padding: 10px 20px;
+    text-align: left;
+    line-height: 60%;
+ }
+ .contact-information p{
+    margin: 0;
+    font-size: 0.8rem;
+ }
+ .map{
+     margin: 0 auto;
+     margin-bottom: -5px;
+     
+ }
+ .contact-information img{
+     max-width: 30px;
+     margin-right: 5px;
+     padding: 15px 0px;
+     filter: none;
+    -webkit-filter: grayscale(0%);
+ }
+ .contact-information img:hover{
+    
+    filter: grayscale(50%);
+   -webkit-filter: grayscale(50%);
+}
+ .contact-information p:first-child{
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #f58634;
+ }
  footer p{
      padding-top: 15px;
  }
