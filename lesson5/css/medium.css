@@ -26,7 +26,7 @@
         font-size: 1.9rem;
     }
     h2{
-        text-align: center;
+        
         font-size: 1.6rem;
     }
     header img{
@@ -42,6 +42,7 @@
 
     .wsummary{
         position: absolute;
+        margin: 0px;
         top: 10px;
         left: 10px;      
         background-color: rgba(245, 134, 52, 75%);
@@ -83,7 +84,7 @@
     .forecast section img{
         margin: 0;
         padding: 5px;
-        width: 80%;
+        width: 60%;
         
     }
     .forecast section p{
@@ -104,8 +105,8 @@
 
     .article section img{
         float: right;
-        max-width: 40%;
-        margin-top: 35px;
+        max-width: 55%;
+        margin-top: 5px;
         margin-left: 15px;
         margin-bottom: 15px;
         

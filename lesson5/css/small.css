@@ -52,7 +52,7 @@ h1{
 }
 h2{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 header section{
@@ -141,6 +141,7 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 .ws-containner{
+    
     position: relative;
     margin: 0;
     
@@ -148,7 +149,7 @@ nav ul li a:hover {
 
 .wsummary{
     text-align: center;
-    margin: 0;
+    margin: 12px 20px -20px 20px;
     padding: 0;
     background-color: #f58634;
 }
@@ -210,6 +211,10 @@ nav ul li a:hover {
     text-align: left;
     font-size: 1rem;
     margin: 5px 0px;
+}
+.author-article{
+    font-size: 1rem;
+    font-style: italic;    
 }
 
 
