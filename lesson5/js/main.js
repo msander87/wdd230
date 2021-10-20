@@ -32,8 +32,15 @@ let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Sat', 'Sun']
 let numbersDay = [];
 let thisDay = dayOfWeek;
 for (let i = 0; i < 5; i++ ){
-    thisDay = thisDay + 1;
-    numbersDay.push(thisDay);
+    if(thisDay <= 5){
+        thisDay = thisDay + 1;
+        numbersDay.push(thisDay);
+    }
+    else{
+        thisDay = 0;
+        numbersDay.push(thisDay);
+    }
+    
 }
 document.querySelector("#h51").innerHTML = days[numbersDay[0]];
 document.querySelector("#h52").innerHTML = days[numbersDay[1]];
