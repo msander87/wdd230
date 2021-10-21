@@ -46,7 +46,13 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="ws-containner">
-            <img src="images/preston.jpg" alt="Preston Hero Image">
+            
+            <picture>
+                <source media="(max-width: 34.99em)" srcset="images/preston545x264_small.jpg">
+                <source media="(max-width: 55.99em)" srcset="images/preston667x250_medium.jpg">
+                <source media="(min-width: 56em)" srcset="images/preston960x300_large.jpg">
+                <img src="images/preston960x300_large.jpg" alt="Preston Hero Image">
+            </picture>
             <div class="wsummary">
                 <section>
                     <h4>Weather Summary</h4>
