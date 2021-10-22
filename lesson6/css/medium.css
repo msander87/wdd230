@@ -52,13 +52,16 @@
     .wsummary section h4{
         margin: 0;
         padding-bottom: 0.5rem; 
-        color: #444;
+        color: #000;
     }
     .wsummary section p{
         font-size: 0.9rem;
         margin: 0;
     }    
-
+    .wsummary section p span{
+        color: #000;    
+    }
+    
 
 
 
