@@ -28,7 +28,7 @@ if(dayOfWeek == 5){
 }
 
 //to set the name of the days in the forecaste section
-let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Sat', 'Sun']
+let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 let numbersDay = [];
 let thisDay = dayOfWeek;
 for (let i = 0; i < 5; i++ ){
@@ -42,11 +42,12 @@ for (let i = 0; i < 5; i++ ){
     }
     
 }
-document.querySelector("#h51").innerHTML = days[numbersDay[0]];
-document.querySelector("#h52").innerHTML = days[numbersDay[1]];
-document.querySelector("#h53").innerHTML = days[numbersDay[2]];
-document.querySelector("#h54").innerHTML = days[numbersDay[3]];
-document.querySelector("#h55").innerHTML = days[numbersDay[4]];
+
+document.querySelector("#h51").innerHTML = days[4];
+document.querySelector("#h52").innerHTML = days[5];
+document.querySelector("#h53").innerHTML = days[6];
+document.querySelector("#h54").innerHTML = days[0];
+document.querySelector("#h55").innerHTML = days[1];
 
 
 //function to open and close de hamburguer menu
