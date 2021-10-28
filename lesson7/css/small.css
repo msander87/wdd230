@@ -270,7 +270,34 @@ nav ul li a:hover {
      margin-top: -25px;
  }
 
+/* weather gallery page*/
 
+.gallery-container{
+    margin: 0 auto;
+    padding: 0px 20px;
+    margin-bottom: 35px;
+}
+.gallery-container section{
+    margin: 10px 0px;
+    
+}
+.gallery-container section img{
+    margin: 0px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.gallery-container section img[data-src] {
+    filter: blur(0.2em);
+}
+.gallery-container section p{
+    display: none;
+}
+#last-visited{
+    color: #f58634;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin: 0px 0px 0px 20px;
+}
 
 
 

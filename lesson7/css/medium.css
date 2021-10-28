@@ -147,5 +147,27 @@
      }
     .sat-banner p{
         display: inline;
-    }    
+    } 
+    
+    /*weather gallery page*/
+    .gallery-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.8em;
+        margin-bottom: 60px;
+
+    }
+    .gallery-container section{
+        margin: 0px;
+        
+    }
+    .gallery-container section img{
+        margin: 0px;
+    }
+    #last-visited{
+        
+        font-size: 0.9rem;
+        margin: 0px 0px 7px 20px;
+    }
+    
 }
