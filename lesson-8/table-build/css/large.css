@@ -1,0 +1,27 @@
+@media only screen and (min-width: 30em) {
+
+table {
+    max-width: 364px;
+	margin: 10px auto;
+    box-shadow: 10px 10px 10px 0px #628ca6;
+}
+thead:first-child tr {
+	font-size: 2rem;
+}
+thead tr:nth-child(2) {	
+    font-size: 1.35rem;
+}
+
+tbody{
+    font-size: 1.25rem;
+}
+tfoot{
+    font-size: 1rem;
+}
+th, td {
+	padding: 10px 15px;
+	border: 1px solid #bbb;
+}
+
+}
+
