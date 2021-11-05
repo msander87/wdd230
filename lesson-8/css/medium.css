@@ -169,5 +169,31 @@
         font-size: 0.9rem;
         margin: 0px 0px 7px 20px;
     }
-    
+
+
+    /* storm center */
+    .sc-container{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    form legend{
+        font-size: 1.2rem;   
+    }
+    form label.top input, form label.top select, form label.top textarea{
+       max-width: 300px;       
+        
+    }
+    form input.submitBtn{
+        font-size: 1.1rem;
+    }
+    .thanks{
+        max-width: 600px;   
+    }    
+    .thanks h4{
+        font-size: 1.3rem;
+    }
+    .thanks p{        
+        font-size: 1.05rem;
+        margin: 5px 0px 200px 0px;
+    }
 }

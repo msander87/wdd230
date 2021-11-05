@@ -102,4 +102,34 @@
     #last-visited{
         font-size: 1rem;
     }
+
+    /*storm center*/
+    .sc-container{
+        max-width: 750px;
+        
+    }
+    form legend{
+        font-size: 1.3rem;   
+    }
+    form label.top input, form label.top select, form label.top textarea{
+       max-width: 350px;       
+        
+    }
+    form input.submitBtn{
+        font-size: 1.2rem;
+    }
+
+
+    /*thanks*/
+    .thanks{
+        max-width: 750px;   
+    }    
+    .thanks h4{
+        font-size: 1.4rem;
+    }
+    .thanks p{        
+        font-size: 1.1rem;
+        margin: 5px 0px 330px 0px;
+    }
+
 }

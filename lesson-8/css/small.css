@@ -298,9 +298,124 @@ nav ul li a:hover {
     font-size: 0.8rem;
     margin: 0px 0px 0px 20px;
 }
+/* Storm Center */
+.sc-form{
+    padding: 0px 3% 20px 3%;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+}
+form fieldset{
+    width: 94%;
+    margin:0px 0px 15px 0px;
+    border: 1px solid #f58634;
+    padding: 5px 3% 5px 3%;
+}
+form legend{
+    font-family: "Quicksand", Helvetica, Arial, sans-serif;
+    color: #4b4b4d;
+    margin: 0;
+    padding: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #4b4b4d;
+    font-size: .9rem;
+    font-weight: bold;
+    
+}
+
+form label.top input, form label.top select, form label.top textarea{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    background-color: rgba(245, 134, 52, 5%);
+    border-radius: 4px;
+    padding: 10px 2%;
+    color: #555;
+    width: 92%;
+    
+    
+}
 
 
+form label.top:last-child{
+    margin-bottom: 15px;
+    
+}
+form label.top input[type='range']{
+    padding: 0;
+    height: 10px;    
+    border-radius: 5px;
+}
 
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #f58634;
+    
+}
+
+form label.rad{
+    display: block;
+    padding: 4px 0px;
+    font-size: .9rem;
+
+}
+form label.top textarea{
+    resize: none;
+    height: 100px;
+}
+form input.submitBtn{
+    border: none;
+    background-color: #f58634;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: .5rem;
+    padding: .75rem 1.75rem;
+    margin: 0 0 2rem 2%;
+    max-width: 20rem;
+}
+form input.submitBtn:hover{
+    
+    background-color: #CD6213;
+  
+}
+form label.top input:required{
+    background-color: rgba(255, 87, 51, 40%);
+    border: solid 2px rgba(255, 87, 51, 100%);
+
+}
+form label.top input:required:valid{
+    background-color: rgba(245, 134, 52, 5%);
+    border: solid 1px #999;
+}
+
+/* thanks page*/
+.thanks{
+    margin: 20px 0px;
+    padding: 20px;
+    
+}
+
+
+.thanks h4{
+    text-align: left;
+    margin: 10px 0px;
+}
+.thanks p{
+    text-align: left;
+    font-size: 1rem;
+    margin: 5px 0px 100px 0px;
+}
 
 
 

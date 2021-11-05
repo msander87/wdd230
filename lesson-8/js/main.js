@@ -102,6 +102,9 @@ function openClose(){
     menup.classList.toggle('close');
 }
 
-
+//Form Range input
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
 
 
