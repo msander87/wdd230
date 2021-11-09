@@ -4,50 +4,87 @@ body{
     
 }
 
-
-table {
-    width: 100%;
-	margin: 0px auto;
-    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-	border: 1px solid #bbb;
-	border-collapse: collapse;
+h1, h2{
+    padding: 0 20px;
+    text-align: center;
+    color: #1A5070;
+    font-family: 'Lora', 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 1.7em;
+}
+h2{
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+.cards{
+     padding: 0px 20px;
+}
+.cards section{
+    border: 1px solid #1A5070;
+    background-color: rgba(26, 80, 112, 25%);
+    margin-bottom: 5px;
+}
+.cards section img{
+    max-width: 60%;
+    margin: 15px 0;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 50%);
 }
 
-thead:first-child tr {
-	background-color:#7fb9c2;
-    font-size: 1.2rem;
-	
-}
-thead tr:nth-child(2) {
-	background-color:#628ca6;
-	color:#fff;
-    font-size: 1.1rem;
-}
-tbody tr:nth-child(4) td:nth-child(3){
-    background-color: #628ca6;
+footer{
+    margin-top: 25px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    background-color: #1A5070;
     color: #fff;
+    padding: 15px 0px;
 }
-tbody tr:nth-child(5) :first-child{
-    font-style: italic;
-}
-tbody tr:nth-child(1), tr:nth-child(3), tr:nth-child(5){
-    background-color: #e7f0ed;
-}
-tbody tr:nth-child(2), tr:nth-child(4), tr:nth-child(6){
-    background-color: #e7ffed;
-}
-tbody{
-    font-size: 0.8rem;
-}
-tfoot{
-    font-size: 0.7rem;
-    background-color: #7fb9c2;
+
+/*table view*/
+@media only screen and (min-width: 35em) {
+    body{
+        max-width: 700px;
+    }
+    .cards{
+        margin: 0 20px;
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 20%);
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.3em;
+        background-color: rgba(0, 0, 0, 10%);;
+    }
+    h1{
+        font-size: 1.85em;
+    }
+    h2{
+        font-size: 1.35em;
+    }
+    .cards section{
+        margin: 0px;
+    }
     
 }
-th, td {
-	padding: 10px 5px;
-	border: 1px solid #bbb;
+
+/*desktop view*/
+@media only screen and (min-width: 56em) {
+    body{
+        max-width: 1200px;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 20%);
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    
 }
-
-
-
+    
