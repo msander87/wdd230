@@ -13,6 +13,7 @@ function createCard(prophetsList){
         pBirthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
         pBirthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
         image.setAttribute('src', prophet.imageurl);
+        image.setAttribute('alt', `${prophet.name} ${prophet.lastname} - ${prophet.order}`);
 
 
         card.appendChild(h2);
