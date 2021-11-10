@@ -176,6 +176,9 @@
         max-width: 600px;
         margin: 0 auto;
     }
+    form fieldset{
+        border: 1px solid #f58634;
+    }
     form legend{
         font-size: 1.2rem;   
     }

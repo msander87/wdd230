@@ -306,14 +306,15 @@ nav ul li a:hover {
 form fieldset{
     width: 94%;
     margin:0px 0px 15px 0px;
-    border: 1px solid #f58634;
     padding: 5px 3% 5px 3%;
+    border: none;
 }
 form legend{
     font-family: "Quicksand", Helvetica, Arial, sans-serif;
-    color: #4b4b4d;
+    color: #ab5e24;
     margin: 0;
     padding: 5px;
+    text-align: center;
     font-size: 1.1rem;
     font-weight: bold;
 
@@ -386,7 +387,7 @@ form input.submitBtn{
 }
 form input.submitBtn:hover{
     
-    background-color: #CD6213;
+    background-color: #ab5e24;
   
 }
 form label.top input:required{
@@ -401,18 +402,18 @@ form label.top input:required:valid{
 
 /* thanks page*/
 .thanks{
-    margin: 20px 0px;
+    margin: 20px auto;
     padding: 20px;
     
 }
 
 
 .thanks h4{
-    text-align: left;
+    text-align: center;
     margin: 10px 0px;
 }
 .thanks p{
-    text-align: left;
+    text-align: center;
     font-size: 1rem;
     margin: 5px 0px 100px 0px;
 }
