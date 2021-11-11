@@ -25,8 +25,6 @@ function createCard(prophetsList){
     });
 }
 
-
-
 fetch(requestURL)
   .then(function (response) {
     return response.json();
