@@ -172,7 +172,23 @@
     .home-hr{
         display: none;
     }
-    
+    /*home hero text*/
+    .hero-text{
+        top: 15px;
+        left: 15px;
+        
+                  
+    }
+    .hero-text section{
+        padding: 25px;
+    }
+    .hero-text section h4{
+        font-size: 1.3rem; 
+    }
+    .hero-text section p{
+        font-size: 1rem;
+        
+    }
 
     /*footer*/
     .contact{

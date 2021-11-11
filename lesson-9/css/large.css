@@ -94,6 +94,25 @@
         margin-bottom: 0;        
     }
     
+
+     /*home hero text*/
+     .hero-text{
+        top: 20px;
+        left: 20px;
+        
+                  
+    }
+    .hero-text section{
+        padding: 30px;
+    }
+    .hero-text section h4{
+        font-size: 1.5rem; 
+    }
+    .hero-text section p{
+        font-size: 1.2rem;
+        
+    }
+
     
     /*footer*/
 
