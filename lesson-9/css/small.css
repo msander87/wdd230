@@ -220,6 +220,34 @@ nav ul li a:hover {
 
 
 
+
+/*Home Page*/
+
+.cities-container{
+    padding: 20px 0;
+    margin: 0 20px;
+    text-align: center;
+    
+}
+.cities-container section :first-child{
+    margin: 0;  
+}
+.cities-container section p:nth-child(2){
+    font-size: 0.9rem;
+    font-style: italic;
+    margin: 0 0 10px 0;  
+}
+.cities-container section p:nth-child(3), p:nth-child(4), p:nth-child(5){
+    font-size: 1rem;
+    margin: 1px 0;
+}
+.cities-container section img{
+    margin: 2px 0 25px 0;
+    box-shadow: 0px 0px 3px 1px #444;
+}
+.home-hr{
+    margin: 0px 20px -30px 20px;
+}
  /*footer*/
  footer{
     background-color: #4b4b4d;
@@ -417,6 +445,7 @@ form label.top input:required:valid{
     font-size: 1rem;
     margin: 5px 0px 100px 0px;
 }
+
 
 
 
