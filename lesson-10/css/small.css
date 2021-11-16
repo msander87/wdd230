@@ -1,0 +1,484 @@
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Quicksand:wght@500&display=swap');*/
+
+
+
+img {
+    max-width: 100%;
+}   
+body {
+  margin: 0 auto;
+  background-color: white;
+  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #444;  
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Quicksand", Helvetica, Arial, sans-serif;
+  }
+.sb-container{
+    display: none;
+    background-color: #0098da;
+}
+.sat-banner{
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+.sat-banner p{
+    margin: 0;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+/*header*/
+header{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #4b4b4d;
+    font-family: "Quicksand", Helvetica, Arial, sans-serif;
+    align-items:center;
+	justify-content:center;
+    display: flex;
+}
+header img{
+    padding: 10px 10px;
+    width: 80px;
+}
+h1{
+    font-size: 1.3rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+header section{
+    text-align: center;
+    color: white;
+    display: flex;
+	flex-direction: column;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+.motto{
+    font-style: italic;
+	letter-spacing: 1pt;
+	font-size: .8rem;
+    margin-top: -15px;
+}
+
+nav {
+	background-color: #f58634;
+	text-align: center;
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+nav ul li:first-child {
+    display: block;
+}
+nav ul li{
+    display: none;
+}
+nav ul li a {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: .95rem;
+	
+}
+nav ul li a:hover {
+    background-color: #0098da;
+	
+	
+}
+.active {
+	pointer-events: none;
+    background-color: rgba(0, 0, 0, 30%);
+    
+}
+
+
+.responsive li {
+	display: block;
+}
+.menu{
+    color: #f58634;
+    background-color: #3E3E3E;
+}    
+.menu:hover{
+    color:white;
+    background-color: #3E3E3E;
+}
+.open::after{
+    content: " Menu";
+}
+.close::after{
+    content: " Close";
+}
+
+
+
+
+ /*main*/
+
+ 
+
+.content-box{
+    padding: 20px 20px;
+    border: 1px solid #f58634;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+}
+.ws-containner{
+    
+    position: relative;
+    margin: 0;
+    
+}
+
+.wsummary{
+    text-align: center;
+    margin: 12px 20px -20px 20px;
+    padding: 0;
+    background-color: #f58634;
+}
+.wsummary section{
+    padding: 1rem;
+    color: white;
+    line-height: 90%;
+
+}
+.wsummary section h4{
+    margin: 0;
+    padding-bottom: 0.5rem; 
+    color: #444;
+}
+.wsummary section p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.wsummary section p span{
+    color: #444;   
+}
+
+
+
+
+
+
+.h3{
+    display: none;
+}
+.forecast{
+    display: none;
+}
+
+
+
+
+
+
+
+.article{
+    margin: 20px 0px;
+    
+}
+.article section{
+    padding: 20px;
+    text-align: center;
+    
+}
+.article section img{
+    margin: 0 auto;
+    box-shadow: 0px 0px 3px 1px #444;
+}
+.article section h4{
+    text-align: left;
+    margin: 10px 0px;
+}
+.article section p{
+    text-align: left;
+    font-size: 1rem;
+    margin: 5px 0px;
+}
+.author-article{
+    font-size: 1rem;
+    font-style: italic;    
+}
+
+
+
+
+
+/*Home Page*/
+
+.cities-container{
+    padding: 20px 0;
+    margin: 0 20px;
+    text-align: center;
+    
+}
+.cities-container section :first-child{
+    margin: 0;  
+}
+.cities-container section p:nth-child(2){
+    font-size: 0.9rem;
+    font-style: italic;
+    margin: 0 0 10px 0;  
+}
+.cities-container section p:nth-child(3), p:nth-child(4), p:nth-child(5){
+    font-size: 1rem;
+    margin: 1px 0;
+}
+.cities-container section img{
+    margin: 2px 0 25px 0;
+    box-shadow: 0px 0px 3px 1px #444;
+}
+.home-hr{
+    margin: 0px 20px -30px 20px;
+}
+
+/*Home hero text*/
+.hero-container{
+    position: relative;
+    text-align: center;
+}
+.hero-text{
+    position: absolute;
+    margin: 0px;
+    top: 10px;
+    left: 10px;
+    
+              
+}
+.hero-text section{
+    padding: 20px;
+    color: #222;
+    background-color: rgba(245, 134, 52, 75%);
+    box-shadow: 0px 0px 5px 2px #444;    
+    margin: 0 10px 0 0;
+}
+.hero-text section h4{
+    margin: 0;
+    padding-bottom: 0.5rem;    
+}
+.hero-text section p{
+    font-size: 0.9rem;
+    margin: -5px 0 0 0;    
+}
+
+
+ /*footer*/
+ footer{
+    background-color: #4b4b4d;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+ }
+ .contact-background{
+    background-color: rgba(0, 0, 0, 30%);
+}
+
+ .contact-information{
+    padding: 10px 20px;
+    text-align: left;
+    line-height: 60%;
+ }
+ .contact-information p{
+    margin: 0;
+    font-size: 0.8rem;
+ }
+ .map{
+     margin: 0 auto;
+     margin-bottom: -5px;
+     
+ }
+ .contact-information img{
+     max-width: 30px;
+     margin-right: 5px;
+     padding: 15px 0px;
+     filter: none;
+    -webkit-filter: grayscale(0%);
+ }
+ .contact-information img:hover{
+    
+    filter: grayscale(50%);
+   -webkit-filter: grayscale(50%);
+}
+ .contact-information p:first-child{
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #f58634;
+ }
+ footer p{
+     padding-top: 15px;
+ }
+ #currentDate{
+     margin-top: -25px;
+ }
+
+/* weather gallery page*/
+
+.gallery-container{
+    margin: 0 auto;
+    padding: 0px 20px;
+    margin-bottom: 35px;
+}
+.gallery-container section{
+    margin: 10px 0px;
+    
+}
+.gallery-container section img{
+    margin: 0px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.gallery-container section img[data-src] {
+    filter: blur(0.2em);
+}
+.gallery-container section p{
+    display: none;
+}
+#last-visited{
+    color: #f58634;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin: 0px 0px 0px 20px;
+}
+/* Storm Center */
+.sc-form{
+    padding: 0px 3% 20px 3%;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+}
+form fieldset{
+    width: 94%;
+    margin:0px 0px 15px 0px;
+    padding: 5px 3% 5px 3%;
+    border: none;
+}
+form legend{
+    font-family: "Quicksand", Helvetica, Arial, sans-serif;
+    color: #ab5e24;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #4b4b4d;
+    font-size: .9rem;
+    font-weight: bold;
+    
+}
+
+form label.top input, form label.top select, form label.top textarea{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    background-color: rgba(245, 134, 52, 5%);
+    border-radius: 4px;
+    padding: 10px 2%;
+    color: #555;
+    width: 92%;
+    
+    
+}
+
+
+form label.top:last-child{
+    margin-bottom: 15px;
+    
+}
+form label.top input[type='range']{
+    padding: 0;
+    height: 10px;    
+    border-radius: 5px;
+}
+
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #f58634;
+    
+}
+
+form label.rad{
+    display: block;
+    padding: 4px 0px;
+    font-size: .9rem;
+
+}
+form label.top textarea{
+    resize: none;
+    height: 100px;
+}
+form input.submitBtn{
+    border: none;
+    background-color: #f58634;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: .5rem;
+    padding: .75rem 1.75rem;
+    margin: 0 0 2rem 2%;
+    max-width: 20rem;
+}
+form input.submitBtn:hover{
+    
+    background-color: #ab5e24;
+  
+}
+form label.top input:required{
+    background-color: rgba(255, 87, 51, 40%);
+    border: solid 2px rgba(255, 87, 51, 100%);
+
+}
+form label.top input:required:valid{
+    background-color: rgba(245, 134, 52, 5%);
+    border: solid 1px #999;
+}
+
+/* thanks page*/
+.thanks{
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+
+.thanks h4{
+    text-align: center;
+    margin: 10px 0px;
+}
+.thanks p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 5px 0px 100px 0px;
+}
+
+
+
+
+
+

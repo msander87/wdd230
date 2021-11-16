@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RainingOrNot Home Page</title>
+    <meta name="description" content="Our main objective is to inform people of each community about what the weather will be like, especially for specific community events. It will also be reported daily which activities are ideal to carry out that day according to the weather. Users will also be able to see specific alerts, for what activities not to do according to the weather, or what care they should have that day according to the weather.">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+   
+</head>
+<body>
+    <header>    
+        <img src="images/logoxs.png" alt="the logo of the page">
+        <section>
+            <h1>RainingOrNot</h1>
+            <p class="motto">planning your life, always!</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="nonResponsive">
+            <li><a class="menu" href="#" onclick="openClose()"><span class="open">&#x2630;</span></a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+             
+        
+        <div class="hero-container">
+            
+            <picture>
+                <source media="(max-width: 34.99em)" srcset="images/home545x264.jpg">
+                <source media="(max-width: 55.99em)" srcset="images/home667x250.jpg">
+                <source media="(min-width: 56em)" srcset="images/home960x300.jpg">
+                <img src="images/home960x300.jpg" alt="Preston Hero Image">
+            </picture>
+            <div class="hero-text">
+                <section>
+                    <h4>Welcome to<br/>RainingOrNot!</h4>
+                    <p>It's great to have you!</p>
+                </section>
+            </div>
+        </div>
+        
+        <div class="cities-container">
+            
+        </div>  
+
+        <hr class="home-hr">
+
+        <div class="article">
+            <section>
+                <h4>Reasons for a weather forecast</h4>
+                <p class="author-article">By Meteorologist Jeff Haby.</p><br/>
+                <p> There are several reasons why weather forecasts are important. They would certainly be missed if they were not there. It is a product of science that impacts the lives of many people. The following is a list of various reasons why weather forecasts are important:<br/><br/>
+                    1. Helps people prepare for how to dress (i.e. warm weather, cold weather, windy weather, rainy weather)<br/><br/>
+                    2. Helps businesses and people plan for power production and how much power to use (i.e. power companies, where to set thermostat)<br/><br/>
+                    3. Helps people prepare if they need to take extra gear to prepare for the weather (i.e. umbrella, rain coat, sun screen)<br/><br/>
+                    4. Helps people plan outdoor activities (i.e. to see if rain/storms/cold weather will impact outdoor event)<br/><br/>
+                    5. Helps curious people to know what sort of weather can be expected (i.e. a snow on the way, severe storms)<br/><br/>
+                    6. Helps businesses plan for transportation hazards that can result from the weather (i.e. fog, snow, ice, storms, clouds as it relates to driving and flying for example)<br/><br/>
+                    7. Helps people with health related issues to plan the day (i.e. allergies, asthma, heat stress)<br/><br/>
+                    8. Helps businesses and people plan for severe weather and other weather hazards (lightning, hail, tornadoes, hurricanes, ice storms)<br/><br/>
+                    9. Helps farmers and gardeners plan for crop irrigation and protection (irrigation scheduling, freeze protection)<br/><br/>
+                    10. Helps people involved with certain activities to know if conditions will be good (i.e. skiing, boating, ballooning)<br/><br/>
+                    11. Helps people know outside weather dangers (i.e. heat index, wind chill, severe weather)<br/><br/>
+                    12. Helps people plan for when to do certain activities that are influenced by weather (i.e. fertilizing, bug spraying, gardening)<br/><br/>
+                    13. Helps people know if they need to leave early for work<br/><br/>
+                    14. Make an uncertain future a little more certain (i.e. knowing changes that will occur in weather).<br/><br/>
+                </p>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <div class="contact-background">
+            <div class="contact">
+                <section class="contact-information">
+                    <p class="contact-tilte">Contact information</p>
+                    <p>&#10082; Preston, ID 83263</p>
+                    <p>&#x260E; 909 909 909</p>
+                    <p>&#x2709; info@rainingornot.com</p>
+                    <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="social media icon"></a>
+                    <a href="https://twitter.com/"><img src="images/twitter.png" alt="social media icon"></a>
+                    <a href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="social media icon"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="social media icon"></a>
+                </section>
+                <img class="map" src="images/map.jpg" alt="location map">
+            </div>
+        </div>
+        <p>&copy; <span id="year"></span> RainingOrNot |  Julio Martin Sander</p>
+        <p id="currentDate"></p><br/>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/cities.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ['Nunito Sans', 'Quicksand']}});</script>
+</body>
+</html>
+
