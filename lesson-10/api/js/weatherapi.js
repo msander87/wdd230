@@ -2,6 +2,6 @@ const apiURL = "api.openweathermap.org/data/2.5/weather?id=2172797&appid=2ace163
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    let tem = jsObject.main.temp;
+    document.querySelector("#current-temp").innerHTML = jsObject.main.temp;
     alert(tem);
   });
