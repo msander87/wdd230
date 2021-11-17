@@ -56,11 +56,11 @@
             <div class="wsummary">
                 <section>
                     <h4>Weather Summary</h4>
-                    <p>Current: <span>Cloudy</span></p>
-                    <p>High: <span><span id="tem">49</span>&deg; F</span></p>
+                    <p>Current: <span id="current"></span></p>
+                    <p>High: <span><span id="tem"></span>&deg; F</span></p>
                     <p>wind chill: <span id="wc"></span></p>
-                    <p>Humidity: <span>89 %</span></p>
-                    <p>Wind speed: <span><span id="ws">3.1</span> mph.</span></p>
+                    <p>Humidity: <span><span id="humidity"></span> %</span></p>
+                    <p>Wind speed: <span><span id="ws"></span> mph.</span></p>
                 </section>
             </div>
         </div>
@@ -71,36 +71,7 @@
         <h3 class="h3">5 Day forecast</h3>
         <div class="forecast">
             
-            <section>
-                <h5 id="h51"></h5>
-                <img src="images/rainny.png" alt="forecast image">
-                <p>76&deg; F</p>
-                <p>Humidity: 89%</p>
-            </section>
-            <section>
-                <h5 id="h52"></h5>
-                <img src="images/cloudy.png" alt="forecast image">
-                <p>79&deg; F</p>
-                <p>Humidity: 36%</p>
-            </section>
-            <section>
-                <h5 id="h53"></h5>
-                <img src="images/sunny.png" alt="forecast image">
-                <p>84&deg; F</p>
-                <p>Humidity: 23%</p>
-            </section>
-            <section>
-                <h5 id="h54"></h5>
-                <img src="images/sunny.png" alt="forecast image">
-                <p>85&deg; F</p>
-                <p>Humidity: 42%</p>
-            </section>
-            <section>
-                <h5 id="h55"></h5>
-                <img src="images/cloudy.png" alt="forecast image">
-                <p>89&deg; F</p>
-                <p>Humidity: 91%</p>
-            </section>
+           
         </div>
 
 
@@ -135,7 +106,9 @@
             </div>
         </div>
         <p>&copy; <span id="year"></span> RainingOrNot |  Julio Martin Sander</p>
+        <p class="ow">data provided by <a target="_blank" href="https://openweathermap.org/">OpenWeatherMap</a></p>
         <p id="currentDate"></p><br/>
+        
     </footer>
     <script src="js/main.js"></script>
     <script src="js/windchill.js"></script>

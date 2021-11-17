@@ -69,7 +69,7 @@
 
     .forecast{
         display: flex;
-        max-width: 80%;
+        max-width: 90%;
         margin: 0 auto;
         
     }
@@ -78,6 +78,7 @@
         border: 1px solid #f58634;
         flex: 1 1 auto;
         margin: 0 2px;
+        background-color: rgba(245, 134, 52, 35%);
     }
     .forecast section h5{
         margin: 0;
@@ -88,7 +89,7 @@
         margin: 0;
         padding: 5px;
         width: 60%;
-        
+                
     }
     .forecast section p{
         margin: 0;

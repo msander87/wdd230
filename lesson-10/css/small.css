@@ -327,8 +327,19 @@ nav ul li a:hover {
  }
  #currentDate{
      margin-top: -25px;
+     font-size: 0.9rem;
  }
-
+.ow{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-size: 0.8rem;
+}
+.ow a{
+    text-decoration: none;
+    margin: 0;
+    color: #f58634;
+}
 /* weather gallery page*/
 
 .gallery-container{
