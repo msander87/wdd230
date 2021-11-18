@@ -213,6 +213,12 @@
         grid-row: 1/2;
         grid-column: 2 / 3;
      }
+     .contact-information p{
+        margin: 0;
+        font-size: 0.8rem;
+     }
+    /*Saturday Preston Banner*/  
+
     .sat-banner p{
         display: inline;
     } 
