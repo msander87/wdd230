@@ -7,7 +7,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     const desc = jsObject.weather[0].description;
-    temperature = jsObject.main.temp_max;
+    temperature = jsObject.main.temp_max.toFixed(0);
     windSpeed = jsObject.wind.speed;
     document.querySelector('#current').innerHTML = desc;
     document.querySelector('#tem').innerHTML = temperature;
@@ -24,7 +24,7 @@ function windChill(t, ws){
         document.querySelector("#wc").innerHTML = ws;
     }
     else{
-        document.querySelector("#wc").innerHTML = "incomputable";
+        document.querySelector("#wc").innerHTML = "not apply";
     }
 }
 
@@ -48,7 +48,7 @@ function createForecast(fList){
             h5.textContent = weekday[day];
             image.setAttribute('src', `http://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`);
             image.setAttribute('alt', item.weather[0].description);
-            p.innerHTML = `${item.main.temp_max}&deg; F`;
+            p.innerHTML = `${item.main.temp_max.toFixed(0)}&deg; F`;
             p2.innerHTML = item.weather[0].description;
             
     
