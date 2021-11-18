@@ -1,4 +1,4 @@
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=2ace1636d2b567ce42e688891813d59d&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=2ace1636d2b567ce42e688891813d59d&units=imperial";
 let temperature = 0
 let windSpeed = 0
 
@@ -28,7 +28,7 @@ function windChill(t, ws){
     }
 }
 
-const forecastURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&cnt=40&appid=2ace1636d2b567ce42e688891813d59d";
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&cnt=40&appid=2ace1636d2b567ce42e688891813d59d";
 
 let forecast = [];
 
