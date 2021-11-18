@@ -44,8 +44,15 @@ function createForecast(fList){
             
             let date = new Date(item.dt_txt);
             let day = date.getDay();
+            let today = new Date().getDay();
             const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-            h5.textContent = weekday[day];
+            if(day == today){
+              h5.textContent = "Today";  
+            }
+            else{
+              h5.textContent = weekday[day];
+            }
+            
             image.setAttribute('src', `http://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`);
             image.setAttribute('alt', item.weather[0].description);
             p.innerHTML = `${item.main.temp_max.toFixed(0)}&deg; F`;
