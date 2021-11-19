@@ -20,7 +20,7 @@ fetch(apiURL)
 function windChill(t, ws){
     if (t <= 50 && ws > 3){
         wind_chill = 35.74 + 0.6215 * t - 35.75 * (ws ** 0.16) + 0.4275 * t * (ws ** 0.16);
-        ws = wind_chill.toFixed(2) + " &deg; F";
+        ws = wind_chill.toFixed(2) + "&deg; F";
         document.querySelector("#wc").innerHTML = ws;
     }
     else{
