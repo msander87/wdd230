@@ -158,8 +158,14 @@
         align-items: center;
         justify-content: center;
     }
+    .cities-container section h3{
+        color: #444;
+        font-size: 1.3rem;
+    }
     .cities-container section p:nth-child(2){
         font-size: 0.9rem;
+        margin: 0 0 10px 0; 
+        color: rgba(68, 68, 68, 75%);
           
     }
     .cities-container section p:nth-child(3), p:nth-child(4), p:nth-child(5){
