@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Gallery</title>
+    <meta name="description" content="Weather Gallery page, is a collection of amazing weather photos, taken and granted by users of the RainingOrNot website. Some of these photos were taken by our own professional photographers.">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+   
+</head>
+<body>
+
+    <header>    
+        <img src="images/logoxs.png" alt="the logo of the page">
+        <section>
+            <h1>RainingOrNot</h1>
+            <p class="motto">planning your life, always!</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="nonResponsive">
+            <li><a class="menu" href="#" onclick="openClose()"><span class="open">&#x2630;</span></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <p id="last-visited"></p>
+        <div class="gallery-container">
+            <section>
+                <img src='images/placeholder_gallery.jpg' data-src='images/gallery1.jpg' alt='temple image'>
+                <p>Formation of a tornado in Lewiston.</p>
+            </section>
+            <section>
+                <img src='images/placeholder_gallery.jpg' data-src='images/gallery2.jpg' alt='temple image'>
+                <p>Hurricane near a ranch in Nampa.</p>
+            </section>
+            <section>
+                <img src='images/placeholder_gallery.jpg' data-src='images/gallery3.jpg' alt='temple image'>
+                <p>Lightning night at Twin Falls.</p>
+            </section>
+            <section>
+                <img src='images/placeholder_gallery.jpg' data-src='images/gallery4.jpg' alt='temple image'>
+                <p>Frosty morning in Idaho!</p>
+            </section>
+            <section>
+                <img src='images/placeholder_gallery.jpg' data-src='images/gallery5.jpg' alt='temple image'>
+                <p>Tornado over plantation in Rexburg.</p>
+            </section>
+            <section>
+                <img src='images/placeholder_gallery.jpg' data-src='images/gallery6.jpg' alt='temple image'>
+                <p>Beautiful snowy day in Idaho.</p>
+            </section>
+            <section>
+                <img src='images/placeholder_gallery.jpg' data-src='images/gallery7.jpg' alt='temple image'>
+                <p>Lots of rain on Sandpoint streets.</p>
+            </section>
+            <section>
+                <img src='images/placeholder_gallery.jpg' data-src='images/gallery8.jpg' alt='temple image'>
+                <p>Large storm formation in Sun Valley.</p>
+            </section>
+            <section>
+                <img src='images/placeholder_gallery.jpg' data-src='images/gallery9.jpg' alt='temple image'>
+                <p>Beautiful red sky at Island Park sunset.</p>
+            </section>
+            
+        </div>
+        
+       
+
+
+
+    </main>
+    <footer>
+        <div class="contact-background">
+            <div class="contact">
+                <section class="contact-information">
+                    <p class="contact-tilte">Contact information</p>
+                    <p>&#10082; Preston, ID 83263</p>
+                    <p>&#x260E; 909 909 909</p>
+                    <p>&#x2709; info@rainingornot.com</p>
+                    <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="social media icon"></a>
+                    <a href="https://twitter.com/"><img src="images/twitter.png" alt="social media icon"></a>
+                    <a href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="social media icon"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="social media icon"></a>
+                </section>
+                <img class="map" src="images/map.jpg" alt="location map">
+            </div>
+        </div>
+        <p>&copy; <span id="year"></span> RainingOrNot |  Julio Martin Sander</p>
+        <p id="currentDate"></p><br/>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/lastvisit.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ['Nunito Sans', 'Quicksand']}});</script>
+</body>
+</html>
+
