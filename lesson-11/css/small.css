@@ -165,7 +165,7 @@ nav ul li a:hover {
     color: #444;
 }
 .wsummary section p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0;
 }
 .wsummary section p span{
@@ -185,7 +185,33 @@ nav ul li a:hover {
 }
 
 
+/*city events*/
+.city-events{
+    text-align: center;
+    margin: 30px 20px -10px 20px;
+    padding: 0;
+    
+}
+.city-events section{
+    padding: 1rem;
+    color: #444;
+    line-height: 120%;
 
+}
+.city-events section hr{
+    border: none;
+    background-color: #f58634;
+    height: 1px;
+    
+}
+.city-events section h4{
+    margin: 0;
+    color: #444;
+}
+.city-events section p{
+    font-size: 0.9rem;
+    margin: 0;
+}
 
 
 

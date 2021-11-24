@@ -62,8 +62,42 @@
         color: #000;    
     }
     
+    /*upcoming events*/
+    .city-events{
+        margin: 15px auto;
+        border: 1px solid #f58634;
+        max-width: 90%;
+        
+    }
+    .city-events section{
+        margin: 0;
+        padding: 0;
+        color: #444;
+        line-height: 150%;
+    
+    }
+    .city-events section hr{
+        display: none;
+        
+    }
+    .city-events section h4{
+        font-size: 1.2rem;
+        color: #fff;
+        background-color: #f58634;
+        margin: 0;
+        padding: 10px 2px;
+    }
+    .city-events section p{
+        font-size: .95rem;        
+    }
+    .city-events section p:first-child{
+        margin-top: 10px;
+    }
+    .city-events section p:last-child{
+        margin-bottom: 10px;
+    }
 
-
+    
 
 
 

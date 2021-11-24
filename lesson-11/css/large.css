@@ -41,10 +41,31 @@
     .forecast{
         max-width: 80%;              
     }
-    .article section p{
-        
-        font-size: 1.1rem;
-        
+
+
+    /*upcoming events*/
+    .city-events{
+        max-width: 80%;        
+    }
+    
+    
+    .city-events section h4{
+        font-size: 1.25rem;   
+        padding: 12px 2px;    
+    }
+    .city-events section p{
+        font-size: 1rem;      
+    }
+    .city-events section p:first-child{
+        margin-top: 14px;
+    }
+    .city-events section p:last-child{
+        margin-bottom: 14px;
+    }
+
+
+    .article section p{        
+        font-size: 1.1rem;        
     }
 
 

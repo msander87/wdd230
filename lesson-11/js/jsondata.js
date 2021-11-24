@@ -1,3 +1,5 @@
+// Weather Summary
+
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=2ace1636d2b567ce42e688891813d59d&units=imperial";
 let temperature = 0
 let windSpeed = 0
@@ -27,6 +29,9 @@ function windChill(t, ws){
         document.querySelector("#wc").innerHTML = "not apply";
     }
 }
+
+
+//Forecast
 
 const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&cnt=40&appid=2ace1636d2b567ce42e688891813d59d";
 
@@ -76,4 +81,37 @@ fetch(forecastURL)
   .then(function (jsonObject) {
     forecast = jsonObject['list'];
     createForecast(forecast);
+  });
+
+
+// City events
+
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+let cities = [];
+let events = [];
+function createHtml(citiesList){
+    citiesList.forEach(city => {
+        if (city.name == "Soda Springs"){
+          events = city.events;
+              events.forEach(event => {
+                                        
+                let p = document.createElement("p");
+                p.textContent = event;
+                document.querySelector('#events').appendChild(p);    
+                 
+            });
+               
+        }      
+    });
+}
+
+
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    cities = jsonObject['towns'];
+    createHtml(cities);
   });
