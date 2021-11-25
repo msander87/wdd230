@@ -1,6 +1,24 @@
-// Weather Summary
+//getting cities code
+let cityCode = parseInt(document.getElementById("city-code").value);
+let cityName = "";
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=2ace1636d2b567ce42e688891813d59d&units=imperial";
+
+switch (cityCode) {
+  case 5604473:
+    cityName = "Preston";
+    break;
+  case 5607916:
+    cityName = "Soda Springs";
+    break;
+  case 5585010:
+    cityName = "Fish Haven";
+    break;
+}
+
+
+
+// Weather Summary
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id="+cityCode+"&appid=2ace1636d2b567ce42e688891813d59d&units=imperial";
 let temperature = 0
 let windSpeed = 0
 
@@ -33,7 +51,7 @@ function windChill(t, ws){
 
 //Forecast
 
-const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&cnt=40&appid=2ace1636d2b567ce42e688891813d59d";
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id="+cityCode+"&units=imperial&cnt=40&appid=2ace1636d2b567ce42e688891813d59d";
 
 let forecast = [];
 
@@ -91,7 +109,7 @@ let cities = [];
 let events = [];
 function createHtml(citiesList){
     citiesList.forEach(city => {
-        if (city.name == "Soda Springs"){
+        if (city.name == cityName){
           events = city.events;
               events.forEach(event => {
                                         
