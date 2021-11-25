@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Haven Town Page</title>
+    <meta name="description" content="Fish Haven Town Weather forecast, Upcoming events, articles, and more.">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+   
+</head>
+<body>
+    <input type="hidden" id="city-code" value="5585010">
+    
+
+    <header>    
+        <a href="index.html"><img src="images/logoxs.png" alt="the logo of the page"></a>
+        <section>
+            <h1>RainingOrNot</h1>
+            <p class="motto">planning your life, always!</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="nonResponsive">
+            <li><a class="menu" href="#" onclick="openClose()"><span class="open">&#x2630;</span></a></li>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html" class="active">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Fish Haven Idaho</h2>
+        <div class="ws-containner">
+            
+            <picture>
+                <source media="(max-width: 34.99em)" srcset="images/fish_haven545x264small.jpg">
+                <source media="(max-width: 55.99em)" srcset="images/fish_haven667x250medium.jpg">
+                <source media="(min-width: 56em)" srcset="images/fish_haven960x300large.jpg">
+                <img src="images/fish_haven960x300_large.jpg" alt="Fish Haven Hero Image">
+            </picture>
+            <div class="wsummary">
+                <section>
+                    <h4>Weather Summary</h4>
+                    <p>Current: <span id="current"></span></p>
+                    <p>High: <span><span id="tem"></span>&deg; F</span></p>
+                    <p>wind chill: <span id="wc"></span></p>
+                    <p>Humidity: <span><span id="humidity"></span>%</span></p>
+                    <p>Wind speed: <span><span id="ws"></span> mph.</span></p>
+                </section>
+            </div>
+        </div>
+
+
+
+
+        <h3 class="h3">5 Day forecast</h3>
+        <div class="forecast">
+            
+           
+        </div>
+
+        <div class="city-events">
+            <section>
+                <h4>Upcoming Events</h4>
+                <hr>
+                <div id="events">
+
+                </div>
+                
+            </section>
+        </div>
+
+
+
+        <div class="article">
+            <section>
+                <img src="images/article_fish_haven.jpg" alt="Fish Haven article image">
+                <h4>Mental Health Tips for Fall and Winter</h4>
+                <p class="author-article">By Northwestern Medicine</p><br/>
+                <p>Fall and winter can be challenging for many from a mental health perspective, and for the second year in a row, the holiday season will be impacted by the COVID-19 pandemic. Here are some tips on ways to maintain good mental health in the months ahead from Allison Johnsen, LCPC, BCC, behavioral health specialist at Northwestern Medicine Delnor Hospital.<br/><br/>
+
+                    Focus on the meaning of the holidays: Ask yourself what the holidays mean to you personally. What do you cherish: the feast, the family camaraderie, viewing the lights and decorations? Identify what is most important and meaningful for you, and be flexible with the rest. Then identify specific ways to make the holidays special for you this year.<br/><br/>
+                    
+                    Beware ‘post-pandemic flux syndrome’: Coined in a Washington Post article by Riley Cuddy on August 11, 2021, this is not a clinical term, but it is something you may have noticed affecting you during the long months of the pandemic. Many people are feeling rather numb, or trending up and down with anxiety and depression, as hopes of a return to “normal” wax and wane. You may also find yourself wanting to make a big change, like moving to a different state; changing jobs; buying an RV, a new car or a new house; or working remotely from another location (perhaps in your new RV). But make sure you vet such decisions carefully and understand where they are coming from. You do not want to make a long-term decision like blowing your budget, depleting your savings, or walking away from your significant other in response to the pandemic.<br/><br/>
+                    
+                    Stay active: Put exercise, movement, outdoor and social activities into your schedule as must-do’s, just like meetings or appointments. It may be safe to return to the gym, especially if you are vaccinated. Walking is always an option with weather-appropriate clothing. You can also try Pilates, yoga and other video-streaming exercise options at home.<br/><br/>
+                    
+                    Cultivate a positive mindset: Take a look at your thought process and adjust if needed. Observe your own thinking and ask yourself: Is it negative, worried or angry? If so, that’s how you will feel. So keep your thoughts as positive as possible and curb that inner negativity.<br/><br/>
+                    
+                    Protect your health this winter. Implement these practices to boost your immune system and your mental health: Make sleep a priority. Keep hand-washing, mask-wearing and physical distancing. Take vitamins. Avoid bingeing on food and alcohol. Keep exercising. Use lotion, as skin dries out in low humidity and heated environments. Monitor your thought patterns and work on increasing positive thinking.<br/><br/>
+                    
+                    If you find you cannot do at least some of these healthy things on your own, then seek a mental health counselor or talk to your primary care physician.<br/><br/>
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="contact-background">
+            <div class="contact">
+                <section class="contact-information">
+                    <p class="contact-tilte">Contact information</p>
+                    <p>&#10082; Fish Haven, ID 83287</p>
+                    <p>&#x260E; 909 909 909</p>
+                    <p>&#x2709; info@rainingornot.com</p>
+                    <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="social media icon"></a>
+                    <a href="https://twitter.com/"><img src="images/twitter.png" alt="social media icon"></a>
+                    <a href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="social media icon"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="social media icon"></a>
+                </section>
+                <img class="map" src="images/map.jpg" alt="location map">
+            </div>
+        </div>
+        <p>&copy; <span id="year"></span> RainingOrNot |  Julio Martin Sander</p>
+        <p class="ow">data provided by <a target="_blank" href="https://openweathermap.org/">OpenWeatherMap</a></p>
+        <p id="currentDate"></p><br/>
+        
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/jsondata.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ['Nunito Sans', 'Quicksand']}});</script>    
+</body>
+</html>
+
