@@ -1,0 +1,52 @@
+@media only screen and (min-width: 35em) {
+
+    /*header*/
+    .header-container{
+        max-width: 37em;
+        margin: 0 auto;
+    }
+    .menu{
+        display: none;
+    }
+    nav {        
+        grid-column: 2/3;
+        align-self: center;  
+        margin-left: 50px;   
+        background-color: #002c5e;   
+    }
+	nav ul {
+		display: flex;
+        margin: 0 auto;
+	}
+	nav ul li {
+		display: block;
+		flex: 1 1 auto;
+	}	
+    nav ul li a {
+        font-size: .9rem; 
+        padding: 8px 5px;       
+    }
+    nav ul li a:hover {
+        background-color: #002c5e;
+        border-bottom: 2px solid #41A2FA;
+    }
+    .active {
+        pointer-events: none;
+        border-bottom: 2px solid #D4AC0D;
+        background-color: #002c5e;
+        color: #fff;       
+    }
+	
+    main{
+        padding: 0 15px;
+        max-width: 37em;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 1.9rem;
+    }
+    h2{
+        
+        font-size: 1.6rem;
+    }
+}
