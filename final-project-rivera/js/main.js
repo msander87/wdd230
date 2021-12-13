@@ -1,3 +1,4 @@
+
 // lazy loading images
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 const imgOptions = {
@@ -74,8 +75,15 @@ function openClose(){
     const mainnav = document.querySelector('.nonResponsive');
     const menup = document.querySelector('.open');
     
-    mainnav.classList.toggle('responsive');
-    menup.classList.toggle('close');
+    mainnav.classList.toggle('responsive');    
+    
+    let menu = document.querySelector('#open').textContent
+    if (menu == "menu"){
+        document.querySelector('#open').innerHTML = "close"
+    }
+    else{
+        document.querySelector('#open').innerHTML = "menu"
+    }
 }
 
 //Form Range input

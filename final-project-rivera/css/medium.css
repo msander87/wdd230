@@ -2,7 +2,7 @@
 
     /*header*/
     .header-container{
-        max-width: 37em;
+        max-width: 660px;
         margin: 0 auto;
     }
     .menu{
@@ -25,10 +25,12 @@
     nav ul li a {
         font-size: .9rem; 
         padding: 8px 5px;       
+        
     }
     nav ul li a:hover {
         background-color: #002c5e;
         border-bottom: 2px solid #41A2FA;
+        
     }
     .active {
         pointer-events: none;
@@ -38,8 +40,7 @@
     }
 	
     main{
-        padding: 0 15px;
-        max-width: 37em;
+        max-width: 660px;
         margin: 0 auto;
     }
     h1{

@@ -7,7 +7,7 @@
     <title>Rivera City Chamber of Commerce</title>
     <meta name="description" content="The main objective of this website is to inform about and promote the businesses that are members of the RCCC (Rivera City Chamber of Commerce), to the people of Rivera city and the Brazilian border city of Santa do Livramento.">
 
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -26,7 +26,8 @@
                 <p>Rivera City<br/>Chamber of<br/>Commerce</p>    
             </section>
             </a> 
-            <a class="menu" href="#" onclick="openClose()"><span class="open">&#x2630;</span></a>
+            
+            <a class="menu" href="#" onclick="openClose()"><i id="open" class="material-icons">menu</i></a>
             <nav>
                 <ul class="nonResponsive">
                     <li><a href="index.html" class="active">Home</a></li>
@@ -50,126 +51,128 @@
             </picture>
             <div class="hero-txt">
                 <section>
-                    <h1>Welcome to Rivera City!</h1>
-                    <p>Chamber of Commerce</p>
+                    <h1>WELCOME TO RIVERA CITY</h1>
+                    <p>CHAMBER OF COMMERCE</p>
                 </section>
-                <p>Photo of the month, by Natalia Borba</p>
+                <p class="by">Photo of the month, by Natalia Borba</p>
             </div>
         </div>
         
-        <div class="photos">
-            <h2>The best photos of the last months</h2>
-            
-            <section>
-                <img src="images/november.jpg" alt="photo of November">
-                <h4>November</h4>
-                <p>By Sebastian Furtado</p>
-            </section>
-            
-            <section>
-                <img src="images/october.jpg" alt="photo of October">
-                <h4>October</h4>
-                <p>By Diego Osorio</p>
-            </section>
-            <p>Your photo of Rivera city can be here too! Send us your photo to photo@rccc.com.uy, if you win your photo will be on the cover of the following month and you will receive a prize of $200 to use in RCCC member stores.</p>
-        </div>  
-
-        <hr>
-
-        <div class="members">
-            <h2>Member Companies</h2>
-            <section>
-               <img src="images/m1.jpg" alt="descriptions here">
-               <div>
-                    <h4>Yury Free Shop</h4>
-                    <p>Av. Agraciada 3800</p>
-                    <p>462-598-909</p>
-                    <p>yury@mail.com</p>
-                    <p>Monday - Saturday: 8am - 19pm</p>
-               </div>
-            </section>
-
-            <section>
+        <div class="main-container">
+            <div class="members">
+                <h2>MEMBER COMPANIES</h2>
+                <section>
                 <img src="images/m1.jpg" alt="descriptions here">
                 <div>
-                     <h4>Yury Free Shop</h4>
-                     <p>Av. Agraciada 3800</p>
-                     <p>462-598-909</p>
-                     <p>yury@mail.com</p>
-                     <p>Monday - Saturday: 8am - 19pm</p>
+                        <h4>Yury Free Shop</h4>
+                        <p>Av. Agraciada 3800</p>
+                        <p>462-598-909</p>
+                        <p>yury@mail.com</p>
+                        <p>Monday - Saturday: 8am - 19pm</p>
                 </div>
-             </section>
+                </section>
 
-             <section>
-                <img src="images/m1.jpg" alt="descriptions here">
-                <div>
-                     <h4>Yury Free Shop</h4>
-                     <p>Av. Agraciada 3800</p>
-                     <p>462-598-909</p>
-                     <p>yury@mail.com</p>
-                     <p>Monday - Saturday: 8am - 19pm</p>
+                <section>
+                    <img src="images/m1.jpg" alt="descriptions here">
+                    <div>
+                        <h4>Yury Free Shop</h4>
+                        <p>Av. Agraciada 3800</p>
+                        <p>462-598-909</p>
+                        <p>yury@mail.com</p>
+                        <p>Monday - Saturday: 8am - 19pm</p>
+                    </div>
+                </section>
+
+                <section>
+                    <img src="images/m1.jpg" alt="descriptions here">
+                    <div>
+                        <h4>Yury Free Shop</h4>
+                        <p>Av. Agraciada 3800</p>
+                        <p>462-598-909</p>
+                        <p>yury@mail.com</p>
+                        <p>Monday - Saturday: 8am - 19pm</p>
+                    </div>
+                </section>
+                <a href="directory.html">SEE ALL MEMEBER COMPANIES</a>
+            </div>
+
+            <hr>
+
+            <div class="join">
+                <h2>RIVERA CITY CHAMBER OF COMMERCE (RCCC):</h2>
+                <p>Is an association of companies designed to promote and protect the interests of its
+                    members. Our members receive thousands of visits per month due to our strategy of
+                    promoting the main events, promotions and other important information in the city.</p>
+                <a href="join.html">JOIN THE CHAMBER</a>    
+            </div>
+            
+            <hr>
+            <div class="info-container">
+                <div class="current-weather">            
+                    <section>
+                        <h2>CURRENT WEATHER</h2>
+                        <p>temperature: 30°F</p>
+                        <p>overcast clouds</p>
+                        <p>Humidity: 65%</p>       
+                    </section>
                 </div>
-             </section>
-             <span>See All Member Companies</span>
-        </div>
+                
+                <div class="forecast">            
+                    <h2>3 DAY FORECAST</h2>
+                    <section>                
+                        <div>
+                            <p>Sunday</p>
+                            <img src="" alt="wheater icon">
+                            <p>45F</p>   
+                        </div>
+                        <div>
+                            <p>Monday</p>
+                            <img src="" alt="wheater icon">
+                            <p>50F</p>   
+                        </div>
+                        <div>
+                            <p>Tuesday</p>
+                            <img src="" alt="wheater icon">
+                            <p>30F</p>   
+                        </div>
+                    </section>
+                </div> 
 
-        <hr>
-
-        <div class="join">
-            <h2>Rivera City Chamber of Commerce (RCCC):</h2>
-            <p>Is an association of companies designed to promote and protect the interests of its
-                members. Our members receive thousands of visits per month due to our strategy of
-                promoting the main events, promotions and other important information in the city.</p>
-            <span>Join the Chamber</span>    
-        </div>
-        
-        <hr>
-        <div class="current-weather">            
-            <section>
-                <h2>Current Weather</h2>
-                <p>temperature: 30°F</p>
-                <p>overcast clouds</p>
-                <p>Humidity: 65%</p>       
-            </section>
-        </div>
-        
-        <div class="forecast">            
-            <h2>3 Day Forecast</h2>
-            <section>                
-                <div>
-                    <p>Sunday</p>
-                    <img src="" alt="wheater icon">
-                    <p>45F</p>   
+                <div class="exchange">            
+                    <section>
+                        <h2>CURRENCY EXCHANGE</h2>
+                        <p>US Dollar: $44.05</p>
+                        <p>Brazilian Real: $8.19</p>
+                        <p>Dollar to Real: $5.20</p>       
+                    </section>
                 </div>
-                <div>
-                    <p>Monday</p>
-                    <img src="" alt="wheater icon">
-                    <p>50F</p>   
-                </div>
-                <div>
-                    <p>Tuesday</p>
-                    <img src="" alt="wheater icon">
-                    <p>30F</p>   
-                </div>
-            </section>
-        </div> 
 
-        <div class="exchange">            
-            <section>
-                <h2>Currency Exchange</h2>
-                <p>US Dollar: $44.05</p>
-                <p>Brazilian Real: $8.19</p>
-                <p>Dollar to Real: $5.20</p>       
-            </section>
-        </div>
-
-        <div class="events">            
-            <section>
-                <h2>Upcoming Events</h2>
-                <p>02/12 Rivera Shines</p>
-                <p>06/12 Exhibition of artisans in the Artigas square garden</p>
-                <p>18/12 Christmas choir in the Flores square garden</p>       
-            </section>
+                <div class="events">            
+                    <section>
+                        <h2>UPCOMING EVENTS</h2>
+                        <p>02/12 Rivera Shines</p>
+                        <p>06/12 Exhibition of artisans in the Artigas square garden</p>
+                        <p>18/12 Christmas choir in the Flores square garden</p>       
+                    </section>
+                </div>
+            </div>
+            <hr>
+            <div class="photos">
+                <h2>THE BEST PHOTOS OF THE LAST MONTHS</h2>
+                
+                <section>
+                    <img src="images/november.jpg" alt="photo of November">
+                    <h4>November</h4>
+                    <p>By Sebastian Furtado</p>
+                </section>
+                
+                <section>
+                    <img src="images/october.jpg" alt="photo of October">
+                    <h4>October</h4>
+                    <p>By Diego Osorio</p>
+                </section>
+                <p>Your photo of Rivera city can be here too! Send us your photo to photo@rccc.com.uy, if you win your photo will be on the cover of the following month and you will receive a prize of $200 to use in RCCC member stores.</p>
+            </div> 
         </div>
 
     </main>
@@ -198,7 +201,7 @@
     <script src="js/main.js"></script>
     <script src="js/cities.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>WebFont.load({google: {families: ['Oswald', 'Raleway']}});</script>
+    <script>WebFont.load({google: {families: ['Oswald', 'Nunito Sans']}});</script>
 </body>
 </html>
 

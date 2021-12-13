@@ -1,20 +1,31 @@
+
+main p{
+    text-align: center;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #5B5B5B;
+}
 img {
     max-width: 100%;
 }   
 body {
   margin: 0 auto;
   background-color: white;
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #444;  
 }
-
+a{
+    text-decoration: none;
+}
 h1, h2, h3, h4, h5, h6{
-    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: #5B5B5B;
+    font-weight: lighter;
   }
 h2{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 18px;
     padding: 0 7px;
 }
 /*header*/
@@ -44,6 +55,7 @@ header{
     text-align: left;
     margin: 0; 
     font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-weight: 300;
     font-size: 40px;
 }
 .header-container section div{
@@ -54,26 +66,34 @@ header{
 .header-container section p:last-child{
     text-align: left;
     margin: 2px 0 0 0;
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: rgba(255, 255, 255, 70%);
 }
 
 /*hamburguer menu*/
 .menu{
-    font-size: 25px;
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
     color: #D4AC0D;    
     text-decoration: none;
     justify-self: end;
     align-self: center;
-    margin-right: 10px;
+    margin-right: 8px;
+    margin-top: 4px;
     
 }    
 .menu:hover{
     color:#41A2FA;
 }
-
+.material-icons{
+    font-size: 32px;
+}
+.open::after{
+    content: "menu";
+}
+.close::after{
+    content: "close";
+}
 
 
 /*nav menu*/
@@ -92,11 +112,11 @@ nav ul li{
     display: none;
 }
 nav ul li a {
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 8px;
+	padding: 11px 8px;
     text-decoration: none;
 	font-size: 16px;
 	
@@ -125,43 +145,42 @@ nav ul li a:hover {
  
 .hero{
     position: relative;
-    text-align: center;
+}
+.hero-txt section{
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 .hero-txt section h1{
-    position: absolute;
-    top: 30px;
-    right: 10px;
-    left: 10px;
-    margin: 0 auto;
-    font-size: 2rem;
+    font-size: 24px;
+    margin: 0;
     color: #fff;
     text-shadow: 0px 0px 10px #000;
 }
 .hero-txt section p{
-    position: absolute;
-    top: 70px;
-    right: 10px;
-    left: 10px;
-    margin: 0 auto;
+    text-align: left;
     color: #fff;
+    margin: 0;
+    padding: 0;
     text-shadow: 0px 0px 7px #000;
-    font-size: 18px;
+    font-size: 16px;
 }
-.hero-txt p{
+.hero-txt .by{
     position: absolute;
     bottom: 10px;
-    left: 2px;
+    left: 5px;
     font-size: 12px;
     font-style: italic;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     color: #fff;
     text-shadow: 0px 0px 3px #000;
 }
 
-main p{
-    text-align: center;
-    padding: 0 10px;
-    font-size: 15px;
+
+.photos{
+    margin: 20px 0;
 }
 .photos section{
     position: relative;
@@ -194,10 +213,13 @@ hr{
 .members{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 5px;
+    gap: 10px;
+}
+.members h2{
+    margin-bottom: 5px;
 }
 .members section{
-    background-color: rgba(0, 44, 94, 20%);
+    background-color: rgba(0, 44, 94, 10%);
     margin: 0 5px;
     display: grid;
     grid-template-columns: 60% 40%;
@@ -209,6 +231,7 @@ hr{
 }
 .members section div h4{
     margin: 8px 0 10px 0;
+    font-size: 16px;
 }
 .members section div p{
     padding: 0;
@@ -216,7 +239,7 @@ hr{
     margin: 8px 0;
 }
 .members section:nth-child(3){
-    background-color: rgba(0, 44, 94, 20%);
+    background-color: rgba(0, 44, 94, 10%);
     margin: 0 5px;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -228,35 +251,46 @@ hr{
     grid-column: 1/2;
     grid-row: 1;
 }
-.members span{
+.members a{
     text-align: center;
     font-family: "Oswald", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    padding: 10px 20px;
-    margin: 10px 20px 15px 20px;
-    background-color: #41a2fa;
-    box-shadow: 0px 0px 5px 1px #000;
+    font-size: 16px;
+    padding: 5px 0px;
+    margin: 10px auto 25px auto;
+    border-bottom: 2px solid #41a2fa;
+    color: #5B5B5B;
+    max-width: 250px;    
+}
+.members a:hover{
+    border-bottom: 2px solid #D4AC0D;
 }
 .join{
     text-align: center;
+    margin-top: 20px;
 }
-.join p{
-    margin-bottom: 25px;
-}
-.join span{
+.join a{
     display: block;
     text-align: center;
     font-family: "Oswald", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    padding: 10px 20px;
-    margin: 20px;
+    padding: 10px 10px;
+    margin: 20px auto;
     margin-bottom: 30px;
+    color: #5B5B5B;
     background-color: #D4AC0D;
-    box-shadow: 0px 0px 5px 1px #000;
+    max-width: 200px;
+    box-shadow: 0px 0px 3px 1px #555;    
 }
+.join a:hover{
+    box-shadow: 0px 0px 6px 2px #555;
+    transition: box-shadow 0.3s;
+}
+
+
+
 .current-weather{
-    margin: 40px 5px 20px 5px;
-    background-color: rgba(0, 44, 94, 20%);
+    margin: 20px 5px 20px 5px;
+    background-color: rgba(0, 44, 94, 10%);
 }
 .current-weather section{
     padding: 5px;
@@ -274,13 +308,13 @@ hr{
     gap: 5px;    
 }
 .forecast section div{
-    background-color: rgba(0, 44, 94, 20%);
+    background-color: rgba(0, 44, 94, 10%);
     text-align: center;
 }
 
 .exchange{
     margin: 20px 5px;
-    background-color: rgba(0, 44, 94, 20%);
+    background-color: rgba(0, 44, 94, 10%);
 }
 .exchange section{
     padding: 5px;
@@ -288,7 +322,7 @@ hr{
 
 .events{
     margin: 20px 5px;
-    background-color: rgba(0, 44, 94, 20%);
+    background-color: rgba(0, 44, 94, 10%);
 }
 .events section{
     padding: 5px;
@@ -297,7 +331,7 @@ hr{
 
 /*footer*/
 footer{
-    margin-top: 50px;
+    margin-top: 70px;
     background-color: #191919;
     
 }
@@ -308,12 +342,12 @@ footer{
 .contact-information p{
     margin: 10px 0;
     color: #fff;
-    font-size: 13px;
+    font-size: 12px;
 
 }
 
 .contact-information .contact-title{
-    font-size: 18px;
+    font-size: 16px;
     color: #41A2FA;
     margin: 15px 0;
 }
@@ -328,7 +362,7 @@ footer{
 .bottom-info{
     margin: 0;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     color: rgba(255, 255, 255, 70%);
 }
 .bottom-info p{
