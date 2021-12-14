@@ -1,0 +1,117 @@
+{
+    "companies": [
+      {
+        "name": "Larratea Tires",
+        "picture": "larratea.jpg",
+        "address": "F. Sanchez 3218",
+        "phone": "598-462-0123",
+        "email": "larratea@email.com",
+        "open": "Monday - Friday: 8am - 5pm",
+        "description": "Our company offers creative and differentiated solutions for the loyalty of tire users that value image, safety, quality and performance with excellence."
+      },
+      {
+        "name": "Optisol",
+        "picture": "optisol.jpg",
+        "address": "Sarandi 2060",
+        "phone": "598-462-2323",
+        "email": "optisol@email.com",
+        "open": "Monday - Friday: 9am - 6pm",
+        "description": "Optisol is a first class optician, located in a modern premises in the center of Rivera. It has the best brands and specialized technicians to help you with your purchase."
+      },
+      {
+        "name": "Sineriz Free Shop",
+        "picture": "sineriz.jpg",
+        "address": "33 Orientales 1981",
+        "phone": "598-462-8452",
+        "email": "sineriz@email.com",
+        "open": "Monday - Sunday: 9am - 10pm",
+        "description": "Specializing in the sale of imported products, Sineriz Free Shop has become a commercial and tourist attraction in Rivera. Our work team guarantees our clients a better service."
+      },
+      {
+        "name": "Baguales",
+        "picture": "baguales.jpg",
+        "address": "Agraciada 1918",
+        "phone": "598-462-2288",
+        "email": "larratea@email.com",
+        "open": "Monday - Saturday: 10am - 6pm",
+        "description": "Saddlery and field products, all the pampero and lincolns line. Knives, boots, panties, shirts, hats, saddles, reins, etc."
+      },
+      {
+        "name": "Petit Hotel",
+        "picture": "petit.jpg",
+        "address": "Av. Brasil 3008",
+        "phone": "598-462-8998",
+        "email": "petit@email.com",
+        "open": "Always open",
+        "description": "Four blocks from the main avenue of the city, is Petit Hotel Rivera. In it you will find everything you need to enjoy your business trip or with your family on vacation."
+      },
+      {
+        "name": "Gardel Restaurant",
+        "picture": "gardel.jpg",
+        "address": "Figueroa 2255",
+        "phone": "598-462-2448",
+        "email": "gardel@email.com",
+        "open": "Monday - Sunday: 7pm - 2am",
+        "description": "The Restaurant aims for excellence in service and in the dishes prepared by our chefs and grillmen. We remember that our products are of high quality and 100% Uruguayan."
+      },
+      {
+        "name": "El Borrego",
+        "picture": "borrego.jpg",
+        "address": "Sarandi 3688",
+        "phone": "598-462-9856",
+        "email": "borrego@email.com",
+        "open": "Monday - Sunday: 6pm - 1am",
+        "description": "El Borrego is a restaurant with traditional Uruguayan food. The best chivitos, milanesas and the best roast beef in town."
+      },
+      {
+        "name": "Morano Restaurant",
+        "picture": "morano.jpg",
+        "address": "Ituzaingo 2278",
+        "phone": "598-462-3553",
+        "email": "morano@email.com",
+        "open": "Tuesday - Sunday: 6pm - 1am",
+        "description": "Large room that allows the distance between the tables, it also offers outdoor tables. Excellent quality in its gastronomic proposal based mainly on grilled meats."
+      },
+      {
+        "name": "Frontier Hotel",
+        "picture": "frontier.jpg",
+        "address": "Av. Uruguay 2400",
+        "phone": "598-462-5555",
+        "email": "frontier@email.com",
+        "open": "Always open",
+        "description": "With its great location in the commercial area of Rivera, Frontier Hotel Rivera guarantees the best rest in your stay for shopping, business or pleasure."
+      },
+      {
+        "name": "Barao Free Shop",
+        "picture": "barao.jpg",
+        "address": "Joaquin Suarez 2088",
+        "phone": "598-462-3737",
+        "email": "barao@email.com",
+        "open": "Monday - Sunday: 8am - 10pm",
+        "description": "A duty-free shop dedicated to serving you, to getting to know you in depth, to better understand you and satisfy your needs, with the main characteristics of innovation and transparency."
+      },
+      {
+        "name": "El Capitan",
+        "picture": "elcapitan.jpg",
+        "address": "Agraciada 3300",
+        "phone": "598-462-8811",
+        "email": "elcapitan@email.com",
+        "open": "Monday - Friday: 8am - 6pm",
+        "description": "El Capitan is an importer of accessories and household items from all over the world with a range of high quality and design products."
+      },
+      {
+        "name": "Neutral Free Shop",
+        "picture": "neutral.jpg",
+        "address": "San Martin 2001",
+        "phone": "598-462-1199",
+        "email": "neutral@email.com",
+        "open": "Monday - Sunday: 8am - 9pm",
+        "description": "Improved customer experience, expanded product variety, always with the latest launches, great offers and promotions, ensuring excellent service and quality care."
+      }
+     ],
+    "events": [        
+        "02/12 Rivera Shines",
+        "06/12 Exhibition of artisans in the Artigas square garden",
+        "18/12 Christmas choir in the Flores square garden"        
+    ]
+}
