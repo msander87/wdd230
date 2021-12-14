@@ -2,7 +2,7 @@
 let cityCode = parseInt(document.getElementById("city-code").value);
 let cityName = "";
 
-
+https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&cnt=40&appid=2ace1636d2b567ce42e688891813d59d
 switch (cityCode) {
   case 5604473:
     cityName = "Preston";

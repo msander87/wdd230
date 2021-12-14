@@ -301,6 +301,9 @@ hr{
 .current-weather section{
     padding: 5px;
 }
+#current-description{
+    text-transform: capitalize;
+}
 
 .forecast{
     margin: 20px 5px;
@@ -317,6 +320,20 @@ hr{
     background-color: rgba(0, 44, 94, 10%);
     text-align: center;
     margin: 0;
+}
+.forecast section div img{
+    -webkit-filter: drop-shadow(0px 0px 5px #5b5b5b);
+    filter: drop-shadow(0px 0px 5px #5b5b5b);       
+}
+.forecast section div p:first-child{
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    color: #5B5B5B;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.forecast section div p:last-child{
+    font-size: 12px;   
+    margin-top: 0px;
 }
 
 .exchange{

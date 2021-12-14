@@ -159,6 +159,12 @@
         gap: 15px;
     }
     
+    .forecast section div p:first-child{
+        font-size: 18px;
+    }
+    .forecast section div p:last-child{
+        font-size: 14px;   
+    }
 
     .photos{
         margin: 20px 0 40px 0;
