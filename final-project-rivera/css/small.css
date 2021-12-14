@@ -215,6 +215,9 @@ hr{
     grid-template-columns: 1fr;
     gap: 10px;
 }
+.member-description{
+    display: none;
+}
 .members h2{
     margin-bottom: 5px;
 }
@@ -250,6 +253,9 @@ hr{
 .members section:nth-child(3) div{
     grid-column: 1/2;
     grid-row: 1;
+}
+.members section:nth-child(5){
+    display: none;  
 }
 .members a{
     text-align: center;
@@ -310,6 +316,7 @@ hr{
 .forecast section div{
     background-color: rgba(0, 44, 94, 10%);
     text-align: center;
+    margin: 0;
 }
 
 .exchange{
@@ -359,8 +366,14 @@ footer{
     margin: 0 5px 0 0;
     
 }
+.ow, .ow a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px 0;
+}
 .bottom-info{
-    margin: 0;
+    margin: 20px 0 0 0;
     text-align: center;
     font-size: 12px;
     color: rgba(255, 255, 255, 70%);

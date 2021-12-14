@@ -10,7 +10,9 @@
 	nav ul li a {
         font-size: 1rem;        
     }
-
+    main p{
+        font-size: 17px;
+    }
     /*logo*/
     .header-container section{    
         padding: 20px 0 20px 10px;
@@ -34,189 +36,160 @@
         max-width: 1000px;        
     }
     h2{
-        text-align: center;
-        font-size: 1.75rem;
+        font-size: 25px;
     }
-    .wsummary section h4{
-        font-size: 1.4rem;
-        margin: 0;
-        padding-bottom: 0.5rem; 
-        
+
+    /*hero home page*/
+
+    .hero-txt section h1{
+        font-size: 30px;        
     }
-    .wsummary section p{
-        font-size: 1.1rem;
-        margin: 0;
-    } 
-    .wsummary section{
-        
-        line-height: 130%;
-    
+    .hero-txt section p{
+        font-size: 22px;
     }
-    .wsummary{
-        
-        top: 25px;
-        left: 25px;      
-        
-    }
-    .forecast{
-        max-width: 80%;              
+    .hero-txt .by{
+        left: 15px;      
     }
 
 
-    /*upcoming events*/
-    .city-events{
-        max-width: 80%;        
+    /*members home page*/
+    .members{
+        gap:14px;
+        margin: 0 14px 55px 0;
+    }
+    .members h2{        
+        margin: 24px 0 10px 0;
+    }
+    .members section:nth-child(2){
+        grid-row: 2/6;
     }
     
-    
-    .city-events section h4{
-        font-size: 1.25rem;   
-        padding: 12px 2px;    
+    .members section:nth-child(2) div h4{        
+        font-size: 22px;
+        margin-bottom: 15px;
     }
-    .city-events section p{
-        font-size: 1rem;      
-    }
-    .city-events section p:first-child{
-        margin-top: 14px;
-    }
-    .city-events section p:last-child{
-        margin-bottom: 14px;
-    }
-
-
-    .article section p{        
-        font-size: 1.1rem;        
-    }
-
-
-    /*Home Page*/
-    .cities-container{
-        margin: 0px 0 -15px 0;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 0.5rem;       
-    }
-    .cities-container section:first-child{
-        grid-column: 2;
-        grid-row: 1;
-    }
-    .cities-container section:last-child{
-        grid-column: 1;
-        grid-row: 1;
-    }
-    .cities-container section{
-        grid-template-columns: 1fr;
-        grid-gap: 0;
-	    margin: 0;
-        padding: 0;
-        align-items: stretch;
-    }
-    .cities-container section:nth-child(1) div{
-        grid-column: 1;
-        
-        
-    }
-    .home-section{
-        display: block;  
-                           
-    }
-    .home-section div{
-        padding: 20px;  
-        height: 150px;         
-    }
-    .cities-container section p:nth-child(2){
-        font-size: 0.95rem;
-          
-    }
-    .cities-container section p:nth-child(3), p:nth-child(4), p:nth-child(5){
-        font-size: 1.05rem;
-        margin: 5px 0;
-    }
-    .cities-container section img{
-        box-shadow: none;
-        margin: 0;
-        margin-bottom: 0;        
+    .members section:nth-child(2) div p{
+        font-size: 17px;
     }
     
 
-     /*home hero text*/
-     .hero-text{
-        top: 20px;
-        left: 20px;
-        
-                  
-    }
-    .hero-text section{
-        padding: 30px;
-    }
-    .hero-text section h4{
-        font-size: 1.5rem; 
-    }
-    .hero-text section p{
-        font-size: 1.2rem;
-        
-    }
 
-    
-    /*footer*/
-
-    .contact{
-        max-width: 850px;
-        margin: 0 auto;
-        padding: 20px 20px;
-        display: grid;
-        grid-template-columns: 65% 35%;
-        text-align: left;
-    }
-    .map{
-        
-        padding: 12px 0px 12px 30px;
-        max-width: 350px;
-        
-    }
-    .contact-information{
-        padding: 10px 0px;
-        grid-row: 1/2;
-        grid-column: 2 / 3;
-     }
-     .contact-information p:first-child{
-        font-size: 1.2rem;
-        
-     }
-     .contact-information p{
+    /*memeber 2*/
+    .members section:nth-child(3){
+        grid-row: 2/3;
+        grid-template-columns: 60% 40%;
         margin: 0; 
-        font-size: .9rem;
-     }
-     .sat-banner p{
-        font-size: 1.05rem; 
-    }     
+    }
+    .members section:nth-child(3) div{
+        margin-right: 10px;
+    }
+    .members section:nth-child(3) div h4{
+        font-size: 22px;
+        margin: 10px 0;
+        
+    }
+    .members section:nth-child(3) div p{
+        font-size: 16px;
+        
+    }
+
+
+
+    /*member 3*/    
+    .members section:nth-child(4){
+        grid-template-columns: 40% 60%;
+        
+    }
+    .members section:nth-child(4) div{
+        margin-left: 5px;
+    }
+    .members section:nth-child(4) div h4{
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    .members section:nth-child(4) div p{
+        font-size: 16px;        
+    }
+      
+    /*memeber 4*/
+    .members section:nth-child(5){
+        display: grid;
+        grid-row: 4/5;
+        grid-template-columns: 60% 40%;
+        margin: 0;    
+        box-shadow: 0px 0px 5px 0px #555;   
+    }
+    .members section:nth-child(5) img{
+        grid-column: 2/3;
+    }
+    .members section:nth-child(5) div{
+        grid-column: 1/2;
+        grid-row: 1;
+        margin-right: 10px;
+        padding: 5px 5px 5px 8px;
+    }
+    .members section:nth-child(5) div h4{
+        margin: 10px 0;
+        font-size: 22px;
+        text-align: right;
+    }
+    .members section:nth-child(5) div p{
+        margin: 5px 0;
+        font-size: 16px;
+        text-align: right;
+    }
+
+    .members a{
+        font-size: 22px;
+        padding: 0px;
+        margin: 15px auto 15px auto;
+        max-width: 400px;    
+    }
+    .join{
+        margin: 30px 0;
+    }
+    .join a{
+        font-size: 22px;
+        margin-bottom: 45px;
+    }
+
+    .info-container{
+        margin: 40px 0;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
     
-     /*weather gallery page*/
-    .gallery-container{
-        grid-template-columns: 1fr 1fr 1fr;
+
+    .photos{
+        margin: 20px 0 40px 0;
+        gap: 10px;
     }
-    .gallery-container section p{
-        display: block;
-        background-color: rgba(245, 134, 52, 75%);
-        color: #000;
-        margin: -5px 0px 0px 0px;
-        padding: 5px 0px 5px 5px;
-        font-size: 0.9rem;
-    }
-    .gallery-container section{
-        margin: 0px;
-        
+    .photos h2{
+        margin: 12px 0 15px  0;
         
     }
-    .gallery-container section:hover{
-        box-shadow: 0px 0px 8px 2px #555;
-        transition: box-shadow 0.3s;
-    }
 
-    #last-visited{
-        font-size: 1rem;
+    /*footer*/
+    footer{
+        margin-top: 90px;
     }
+    .contact{
+        max-width: 1000px;
+    }
+    .contact-information p{
+        font-size: 14px;
+    }
+    
+    .contact-information .contact-title{
+        font-size: 19px;
+    }
+    .bottom-info{
+        margin: 45px 0 0 0;
+        font-size: 14px;
+    }
+    
 
-    /*storm center*/
+    /*storm center
     .sc-container{
         max-width: 750px;
         
@@ -233,7 +206,7 @@
     }
 
 
-    /*thanks*/
+    /*thanks
     .thanks{
         max-width: 750px;   
     }    
@@ -243,6 +216,6 @@
     .thanks p{        
         font-size: 1.1rem;
         margin: 5px 0px 330px 0px;
-    }
+    }*/
 
 }
