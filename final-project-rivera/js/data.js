@@ -12,20 +12,9 @@ fetch(apiURL)
   });
 
 
-function windChill(t, ws){
-    if (t <= 50 && ws > 3){
-        wind_chill = 35.74 + 0.6215 * t - 35.75 * (ws ** 0.16) + 0.4275 * t * (ws ** 0.16);
-        ws = wind_chill.toFixed(0) + "&deg; F";
-        document.querySelector("#wc").innerHTML = ws;
-    }
-    else{
-        document.querySelector("#wc").innerHTML = "not apply";
-    }
-}
 
 
-//Forecast
-
+/*
 const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id="+cityCode+"&units=imperial&cnt=40&appid=2ace1636d2b567ce42e688891813d59d";
 
 let forecast = [];
@@ -107,4 +96,4 @@ fetch(requestURL)
   .then(function (jsonObject) {
     cities = jsonObject['towns'];
     createHtml(cities);
-  });
+  });*/
