@@ -1,23 +1,25 @@
 
 const apiURL = "https://msander87.github.io/wdd230/final-project-rivera/api/rivera.json";
-let companies = [];
+//let companies = [];
 let events = [];
-let turn = 0;
-
+//let turn = 0;
 
 
 fetch(apiURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    companies = jsonObject['companies'];
-    createCompanies(companies);
+  .then((response) => response.json())
+  .then((jsObject) => {
+    
+   // companies = jsObject['companies'];
+    //createCompanies(companies);
+
+    events = jsObject['events'];
+    createEvents(events);
+  
   });
 
 
 
-function createCompanies(companiesList){
+/*function createCompanies(companiesList){
     let h2 = document.createElement('h2');
     h2.textContent = "MEMBER COMPANIES";
     document.querySelector('.members').appendChild(h2);   
@@ -68,7 +70,7 @@ function createCompanies(companiesList){
     a.setAttribute('href', 'directory.html');
     a.textContent = 'SEE ALL MEMBER COMPANIES';
     document.querySelector('.members').appendChild(a);   
-}
+}*/
 
 
 function createEvents(eventsList){
