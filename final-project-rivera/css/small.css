@@ -28,6 +28,12 @@ h2{
     font-size: 18px;
     padding: 0 7px;
 }
+h3{
+    
+    font-size: 16px;
+    padding: 0 7px;
+}
+
 
 
 /*alert section*/
@@ -428,7 +434,22 @@ footer{
 }
 .bottom-info p{
     margin: 2px 0;
+    
 }
 
 
+
+
+/*Rivera page*/
+.news section{
+    background-color: rgba(0, 44, 94, 10%);
+}
+.news section h3{
+    margin: 5px;
+}
+.news section p{
+    text-align: left;
+    margin: 10px auto;
+    padding-bottom: 13px;
+}
 

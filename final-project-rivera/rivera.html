@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rivera City</title>
+    <meta name="description" content="All the news, events, promotions and other information of interest of the city of Rivera.">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+   
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+            <section>
+                <p>RCCC</p>
+                <div></div>
+                <p>Rivera City<br/>Chamber of<br/>Commerce</p>    
+            </section>
+            </a> 
+            
+            <a class="menu" href="#" onclick="openClose()"><i id="open" class="material-icons">menu</i></a>
+            <nav>
+                <ul class="nonResponsive">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rivera.html" class="active">Rivera</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>  
+        </div>  
+    </header>    
+    <main>       
+        <div class="main-container">
+            <h2>RIVERA CITY LAST NEWS</h2>
+                      
+            <div class="news">
+                <section>
+                    <img src="images/news1.jpg" alt="">
+                    <h3>MAGIC NIGHT CONFIRMED</h3>
+                    <p>On Thursday, December 19, within the framework of the activities of "Rivera shines in December", starting at 8 pm, the nineteenth edition of the "Magic Night" will be held on Av. Sarandi, between Bvar. 33 Orientales and Rodo street. On this traditional night, as every year in December, Rivera's shops and free shops will have discounts of up to 50% and will remain open until 3 am, it will be a great "white road", with a parade and shows with bands. Christmas student youths and scenarios with a diversity of artistic and cultural presentations along our main avenue. In addition, there will be a stage in Plaza Artigas with the performance of renowned artists, and another in front of the Uruguay Club, where the Municipal Folkloric Ballet will perform.</p>
+                </section>
+                <section>
+                    <img src="images/news2.jpg" alt="">
+                    <h3>VACCINATION IN CHILDREN</h3>
+                    <p>Uruguay estimates to vaccinate children between 5 and 11 years old against covid-19 between January and February 2022, said the Minister of Public Health on Monday, who defended that the measure carries "beneficial elements." He affirms that there is a set of beneficial elements, and stressed that the dose is only one third of the adult inoculum.</p>
+                </section>
+                <section>
+                    <img src="images/news3.jpg" alt="">
+                    <h3>RAINS AND THUNDERSTORMS SINCE TUESDAY</h3>
+                    <p>The Uruguayan Meteorology Center reported that in areas with strong storms, could be recorded very strong winds, intense rainfall, hail fall and intense electrical activity.</p>
+                </section>
+            </div>
+
+            <hr>                  
+            
+            
+            <div class="info-city">              
+
+                <div class="demographic">            
+                    <section>
+                        <h2>RIVERA CITY</h2>
+                        <p id="population"></p>
+                        <p id="founded"></p>
+                        <p id=""></p>       
+                    </section>
+                </div>
+
+                <div class="events">            
+                    <section id="events">
+                              
+                    </section>
+                </div>
+            </div>
+            <hr>
+            <div class="photos">
+                <h2>THE BEST PHOTOS OF THE LAST MONTHS</h2>
+                
+                <section>
+                    <img src="images/november.jpg" alt="photo of November">
+                    <h4>November</h4>
+                    <p>By Sebastian Furtado</p>
+                </section>
+                
+                <section>
+                    <img src="images/october.jpg" alt="photo of October">
+                    <h4>October</h4>
+                    <p>By Diego Osorio</p>
+                </section>
+                <p>Your photo of Rivera city can be here too! Send us your photo to photo@rccc.com.uy, if you win your photo will be on the cover of the following month and you will receive a prize of $200 to use in RCCC member stores.</p>
+            </div> 
+        </div>
+
+    </main>
+
+
+    <footer>        
+        <div class="contact">
+            <section class="contact-information">
+                <p class="contact-title">Contact information</p>
+                <p>&#10082; Rivera City 40000, UY</p>
+                <p>&#x260E; 598 462-1234</p>
+                <p>&#x2709; info@rccc.com.uy</p>
+            </section>
+            <section class="social-media">
+                <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+                <a target="_blank" href="https://twitter.com/"><img src="images/twitter.png" alt="twitter icon"></a>
+                <a target="_blank" href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="pinterest icon"></a>
+                <a target="_blank" href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube icon"></a>
+                <p class="ow">data provided by <a target="_blank" href="https://openweathermap.org/">OpenWeatherMap</a></p>
+            </section>    
+        </div>
+        <section class="bottom-info">
+            <p>&copy; <span id="year"></span> RCCC |  Julio Martin Sander</p>
+            <p id="updated"></p><br/>
+        </section>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/city_data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ['Oswald', 'Nunito Sans']}});</script>
+</body>
+</html>
+

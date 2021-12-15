@@ -115,8 +115,16 @@
         "18/12 Christmas choir in the Flores square garden"        
     ],
     "info":{
-        "name": "Rivera City",
+        "motto": "City of the red lands",
         "founded": 1884,
-        "population": 103493
-    }
+        "population": 103493,
+        "governor": "Tabare Viera"
+    },
+    "covid":{
+      "active": 5,
+      "recovered": 12312,
+      "vaccinated": 62376,
+      "deaths": 199
+
+  }
 }
