@@ -450,16 +450,21 @@ footer{
     background-color: rgba(0, 44, 94, 10%);
 }
 .news section h3{
-    margin: 5px;
+    margin: 5px 4px;
 }
 .news section p{
     text-align: left;
-    margin: 10px auto;
-    padding-bottom: 13px;
+    margin: 7px auto 12px auto;
+    padding-bottom: 17px;
 }
 
+
+
+.info-city{
+    margin: 20px auto;
+}
 .rivera-data{
-    margin: 20px 5px;
+    margin: 10px 5px;
     background-color: rgba(0, 44, 94, 10%);
 }
 .rivera-data section{
@@ -467,11 +472,54 @@ footer{
 }
 
 .covid{
-    margin: 20px 5px;
+    margin: 10px 5px;
     background-color: rgba(0, 44, 94, 10%);
 }
 .covid section{
     padding: 5px;
 }
 
+.promo{
+    margin: 23px 5px 25px 5px;
+    background-color: #D4AC0D;
+}
+.promo section{
+    padding: 5px;
+    text-align: center;
+}
+.promo section h2{
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+}
+.promo section p{
+    color: #2b2b2b;
+    
+}
+.promo section a{
+    display: block;
+    text-align: center;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 5px 0px;
+    margin: 10px auto 15px auto;
+    background-color:  #41a2fa;
+    color: #fff;
+    max-width: 120px;  
+    text-shadow: 0px 0px 5px #000; 
+    box-shadow: 0px 0px 3px 1px #555;   
+}
+.promo section a:hover{
+    box-shadow: 0px 0px 6px 2px #555;   
+}
+
+
+.history{
+    margin: 20px 0;
+}
+
+.photo-legend{
+    font-size: 12px;
+    margin: 0px auto -8px auto;
+    font-style: italic;
+}
 
