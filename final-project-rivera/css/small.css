@@ -390,6 +390,8 @@ hr{
 }
 
 
+
+
 /*footer*/
 footer{
     margin-top: 70px;
@@ -441,6 +443,9 @@ footer{
 
 
 /*Rivera page*/
+.news{
+    margin: 0 auto 25px auto;
+}
 .news section{
     background-color: rgba(0, 44, 94, 10%);
 }
@@ -452,4 +457,21 @@ footer{
     margin: 10px auto;
     padding-bottom: 13px;
 }
+
+.rivera-data{
+    margin: 20px 5px;
+    background-color: rgba(0, 44, 94, 10%);
+}
+.rivera-data section{
+    padding: 5px;
+}
+
+.covid{
+    margin: 20px 5px;
+    background-color: rgba(0, 44, 94, 10%);
+}
+.covid section{
+    padding: 5px;
+}
+
 
