@@ -95,6 +95,7 @@ function createCompanies(companiesList){
 const wURL = "https://api.openweathermap.org/data/2.5/onecall?lat=-30.9053&lon=-55.5508&exclude=hourly,minutely&appid=2ace1636d2b567ce42e688891813d59d&lang=en&units=imperial";
 let forecast = [];
 let turnForecast = 0;
+let alerts = []
 
 fetch(wURL)
   .then((response) => response.json())
@@ -103,6 +104,18 @@ fetch(wURL)
     document.querySelector('#temperature').innerHTML = jsObject.current.temp.toFixed(0);
     document.querySelector('#current-description').innerHTML = jsObject.current.weather[0].description;
     document.querySelector('#humidity').innerHTML = jsObject.current.humidity;   
+    document.querySelector('#humidity').innerHTML = jsObject.current.humidity;   
+    
+    alerts = jsObject['alerts'];
+    if (typeof alerts !== 'undefined' && alerts.length > 0){
+      document.querySelector('.alert_event').innerHTML = `Alert: ${jsObject.alerts[0].event}`;
+      document.querySelector('.alert_description').innerHTML = jsObject.alerts[0].description;
+    }
+    else{
+      let alertDiv = document.querySelector('.alert');
+      alertDiv.style.display = 'none';  
+    }
+    
 
     forecast = jsObject['daily'];
     createForecast(forecast);
@@ -155,42 +168,7 @@ function createForecast(forecastList){
     });
 }
 
-
-
-
-
-
-
-
-/*
-// City events
-
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-let cities = [];
-let events = [];
-function createHtml(citiesList){
-    citiesList.forEach(city => {
-        if (city.name == cityName){
-          events = city.events;
-              events.forEach(event => {
-                                        
-                let p = document.createElement("p");
-                p.textContent = event;
-                document.querySelector('#events').appendChild(p);    
-                 
-            });
-               
-        }      
-    });
+function closeAlert(){
+  let alertDiv = document.querySelector('.alert');
+  alertDiv.style.display = 'none';
 }
-
-
-
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    cities = jsonObject['towns'];
-    createHtml(cities);
-  });*/

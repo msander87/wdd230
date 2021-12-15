@@ -1,52 +1,11 @@
 
-// lazy loading images
-let imagesToLoad = document.querySelectorAll('img[data-src]');
-const imgOptions = {
-    threshold:0,
-    rootMargin: "0px 0px 10px 0px"
-}
+/*set copyright date*/
 
-const loadImages = (image) => {
-  image.setAttribute('src', image.getAttribute('data-src'));
-  image.onload = () => {image.removeAttribute('data-src');};
-};
-
-
-
-if('IntersectionObserver' in window) {
-const observer = new IntersectionObserver((items, observer) => {
-    items.forEach((item) => {
-    if(item.isIntersecting) {
-        loadImages(item.target);
-        observer.unobserve(item.target);
-    }
-    });
-}, imgOptions);
-
-imagesToLoad.forEach((img) => {
-    observer.observe(img);
-});
-} else {
-imagesToLoad.forEach((img) => {
-    loadImages(img);
-});
-}
-
-
-/* set copyright date and current date*/
-
-try{
-    const options = { 
-        weekday: 'long',
-        day: 'numeric',
-        month: 'long',
-        year: 'numeric'
-              
-    }; 
+try{    
     const theYear = {
         year: 'numeric'
     }
-    document.getElementById("currentDate").textContent = new Date().toLocaleDateString("en-UK", options);
+    
     document.getElementById("year").textContent = new Date().toLocaleDateString("en-UK", theYear);
 
 }
@@ -55,18 +14,9 @@ catch(e){
 }
 
 
-//to show the banner only on Fridays
-let today = new Date();
-let dayOfWeek = today.getDay();
-
-if(dayOfWeek == 5){
-    document.querySelector(".sb-container").style.display = 'block';
-}
-
-
-
-
-
+/*set last modified date*/ 
+let updated = document.lastModified;
+document.querySelector("#updated").textContent = `Last modified date: ${updated}`;
 
 
 
@@ -84,11 +34,6 @@ function openClose(){
     else{
         document.querySelector('#open').innerHTML = "menu"
     }
-}
-
-//Form Range input
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
 }
 
 

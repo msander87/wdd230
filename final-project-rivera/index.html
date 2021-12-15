@@ -17,6 +17,13 @@
    
 </head>
 <body>
+    <div class="alert">
+        <section>
+            <a class="alert_button" href="#" onclick="closeAlert()"><i id="close_alert" class="material-icons">close</i></a>
+            <h4 class="alert_event"></h4>
+            <p class="alert_description"></p>
+        </section>
+    </div>
     <header>
         <div class="header-container">
             <a href="index.html">
@@ -147,11 +154,11 @@
         </div>
         <section class="bottom-info">
             <p>&copy; <span id="year"></span> RCCC |  Julio Martin Sander</p>
-            <p id="currentDate"></p><br/>
+            <p id="updated"></p><br/>
         </section>
     </footer>
     <script src="js/main.js"></script>
-    <script src="js/api_data.js"></script>
+    <script src="js/home_data.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({google: {families: ['Oswald', 'Nunito Sans']}});</script>
 </body>

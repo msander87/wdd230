@@ -31,13 +31,24 @@
         font-size: 18px;        
     }
 
-
     main{        
         max-width: 1000px;        
     }
     h2{
         font-size: 25px;
     }
+
+
+    /*alert section*/
+    .alert section{
+        max-width: 998px;
+        
+    }
+    .alert p{
+        font-size: 14px;
+    }
+  
+
 
     /*hero home page*/
 

@@ -28,6 +28,37 @@ h2{
     font-size: 18px;
     padding: 0 7px;
 }
+
+
+/*alert section*/
+.alert{
+    color: #5B5B5B;
+    background-color: #D4AC0D;
+    text-align: left;
+}
+.alert section{
+    padding: 7px;
+}
+.alert a{
+    text-decoration: none;
+    margin-right: 0px;
+    margin-left: auto;
+}
+.alert a i{
+    color: #5B5B5B;
+    font-size: 22px;
+    margin-bottom: 0px;
+    float: right;
+}
+.alert h4{
+    margin: 0 auto 10px auto;
+    
+}
+.alert p{
+    margin: 5px auto;
+    font-size: 13px;
+}
+
 /*header*/
 header{
     margin: 0 auto;

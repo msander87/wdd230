@@ -44,6 +44,16 @@
         font-size: 21px;
     }
 
+
+    /*alert section*/
+    
+    .alert section{
+        padding: 12px 9px 9px 9px;
+        max-width: 660px;
+        margin: 0 auto;
+    }
+  
+   
     /*hero home page*/
 
     .hero-txt section{
