@@ -33,7 +33,9 @@ h3{
     font-size: 16px;
     padding: 0 7px;
 }
-
+.main-title{
+    margin: 20px auto 15px auto;
+}
 
 
 /*alert section*/
@@ -519,4 +521,35 @@ footer{
 .history p{
     text-align: justify;
 }
+
+
+
+/*directory page*/
+.directory-grid{
+    margin: 0 5px 30px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.directory-grid section{
+    background-color: rgba(0, 44, 94, 10%);
+    margin: 0;   
+}
+.directory-grid section div{
+    text-align: center;
+    margin: 5px 5px 16px 5px;
+    
+}
+.directory-grid section div h4{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+.directory-grid section div p{
+    padding: 0;
+    font-size: 13px;
+    margin: 8px 0;
+}
+
+
+
 

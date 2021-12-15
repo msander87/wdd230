@@ -3,6 +3,7 @@
       {
         "name": "Larratea Tires",
         "picture": "larratea.jpg",
+        "picture_large": "larratea_large.jpg",
         "address": "F. Sanchez 3218",
         "phone": "598-462-0123",
         "email": "larratea@email.com",
@@ -12,6 +13,7 @@
       {
         "name": "Optisol",
         "picture": "optisol.jpg",
+        "picture_large": "optisol_large.jpg",
         "address": "Sarandi 2060",
         "phone": "598-462-2323",
         "email": "optisol@email.com",
@@ -21,6 +23,7 @@
       {
         "name": "Sineriz Free Shop",
         "picture": "sineriz.jpg",
+        "picture_large": "sineriz_large.jpg",
         "address": "33 Orientales 1981",
         "phone": "598-462-8452",
         "email": "sineriz@email.com",
@@ -30,6 +33,7 @@
       {
         "name": "Baguales",
         "picture": "baguales.jpg",
+        "picture_large": "baguales_large.jpg",
         "address": "Agraciada 1918",
         "phone": "598-462-2288",
         "email": "baguales@email.com",
@@ -39,6 +43,7 @@
       {
         "name": "Petit Hotel",
         "picture": "petit.jpg",
+        "picture_large": "petit_large.jpg",
         "address": "Av. Brasil 3008",
         "phone": "598-462-8998",
         "email": "petit@email.com",
@@ -48,6 +53,7 @@
       {
         "name": "Gardel Restaurant",
         "picture": "gardel.jpg",
+        "picture_large": "gardel_large.jpg",
         "address": "Figueroa 2255",
         "phone": "598-462-2448",
         "email": "gardel@email.com",
@@ -57,6 +63,7 @@
       {
         "name": "El Borrego",
         "picture": "borrego.jpg",
+        "picture_large": "borrego_large.jpg",
         "address": "Sarandi 3688",
         "phone": "598-462-9856",
         "email": "borrego@email.com",
@@ -66,6 +73,7 @@
       {
         "name": "Morano Restaurant",
         "picture": "morano.jpg",
+        "picture_large": "morano_large.jpg",
         "address": "Ituzaingo 2278",
         "phone": "598-462-3553",
         "email": "morano@email.com",
@@ -75,6 +83,7 @@
       {
         "name": "Frontier Hotel",
         "picture": "frontier.jpg",
+        "picture_large": "frontier_large.jpg",
         "address": "Av. Uruguay 2400",
         "phone": "598-462-5555",
         "email": "frontier@email.com",
@@ -84,6 +93,7 @@
       {
         "name": "Barao Free Shop",
         "picture": "barao.jpg",
+        "picture_large": "barao_large.jpg",
         "address": "Joaquin Suarez 2088",
         "phone": "598-462-3737",
         "email": "barao@email.com",
@@ -93,6 +103,7 @@
       {
         "name": "El Capitan",
         "picture": "elcapitan.jpg",
+        "picture_large": "elcapitan_large.jpg",
         "address": "Agraciada 3300",
         "phone": "598-462-8811",
         "email": "elcapitan@email.com",
@@ -102,6 +113,7 @@
       {
         "name": "Neutral Free Shop",
         "picture": "neutral.jpg",
+        "picture_large": "neutral_large.jpg",
         "address": "San Martin 2001",
         "phone": "598-462-1199",
         "email": "neutral@email.com",
