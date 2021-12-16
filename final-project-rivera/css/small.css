@@ -526,7 +526,7 @@ footer{
 
 /*directory page*/
 .directory-grid{
-    margin: 0 5px 30px 5px;
+    margin: 0 5px 40px 5px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
@@ -537,7 +537,7 @@ footer{
 }
 .directory-grid section div{
     text-align: center;
-    margin: 5px 5px 16px 5px;
+    margin: 5px 10px 16px 10px;
     
 }
 .directory-grid section div h4{
@@ -550,6 +550,33 @@ footer{
     margin: 8px 0;
 }
 
+.directory-list{
+    margin: 0 5px 40px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.directory-list section{
+    background-color: rgba(0, 44, 94, 10%);
+    margin: 0;   
+}
+.directory-list section div{
+    text-align: center;
+    margin: 5px 10px 16px 10px;
+    
+}
+.directory-list section div h4{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+.directory-list section div p{
+    padding: 0;
+    font-size: 13px;
+    margin: 8px 0;
+}
+.d-btn{
+    display: none;
+}
 
 
 

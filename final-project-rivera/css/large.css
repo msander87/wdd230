@@ -37,7 +37,9 @@
     h2{
         font-size: 25px;
     }
-
+    .main-title{
+        margin: 30px auto 20px auto;
+    }
 
     /*alert section*/
     .alert section{
@@ -280,6 +282,47 @@
     .history p:nth-child(6){
         margin: 5px 0 0 15px;
     }
+
+
+
+    /*directory squares*/
+    .directory-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    
+    .directory-grid section div{
+        margin: 5px 10px 10px 10px;        
+    }
+    .directory-grid section div h4{
+        font-size: 20px;
+    }
+    .directory-grid section div p{
+        font-size: 14px;
+        
+    }
+   
+    
+
+
+    /*directory list*/
+    
+    .directory-list section div{
+        margin: 15px 15px 15px 15px;
+           
+    }
+    .directory-list section img{
+        margin: 0;       
+    }
+    .directory-list section div h4{
+        margin: 2px 0 10px 0;
+        font-size: 24px;
+    }
+    .directory-list section div p{
+        font-size: 18px;
+        
+    }
+    
     
 
 }

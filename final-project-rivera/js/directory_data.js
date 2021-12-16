@@ -26,7 +26,7 @@ function createCompanies(companiesList){
       let p4 = document.createElement("p");  
       let p5 = document.createElement("p");           
 
-      image.setAttribute('src', `images/${item.picture}`);
+      image.setAttribute('src', `images/${item.picture_large}`);
       image.setAttribute('alt', item.name);
       h4.textContent = item.name;
       p1.textContent = item.address;
@@ -45,8 +45,16 @@ function createCompanies(companiesList){
       section.appendChild(image);
       section.appendChild(div);   
 
-      document.querySelector('.directory-grid').appendChild(section);        
+      document.querySelector('#directory-container').appendChild(section);        
        
     });   
 }
 
+
+function displayList(){
+  document.querySelector("#directory-container").className = "directory-list";
+}
+
+function displayGrid(){
+  document.querySelector("#directory-container").className = "directory-grid";
+}
