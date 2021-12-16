@@ -41,19 +41,93 @@
     </header>    
     <main>       
         <div class="main-container">
-            <h2 class="main-title">JOIN THE CHAMBER</h2>
-            
-            
-            
+            <h2 class="main-title">BENEFITS OF JOINING THE CHAMBER</h2>  
+            <p>Some of the benefits are: Make business contacts, receive chamber newsletters, acquire client referrals, add credibility to your business, increase your visibility in the community, networking opportunities, gain a voice in government, presence in directory listings, business trainings, professional social media post, luncheon tickets, sponsorships with different levels of advertising, creation of a professional website, email marketing with professional design, and much more.</p>               
+           
+            <hr class="join-hr">
             <div class="join-container">
-                
+                <div class="form-container">
+                    <h2>COMPLETE THE FORM BELOW</h2>
+                    <form method="get" action="thanks.html" class="join-form">                        
+                            
+                        <label class="top">First Name* <input type="text" name="name" placeholder="This field is required" required pattern="[a-zA-Z'-'\s]{5,}"></label>
+                        <label class="top">Last Name* <input type="text" name="lastName" placeholder="This field is required" required pattern="[a-zA-Z'-'\s]{5,}"></label>
+                        <label class="top">Title </Title> <input type="text" name="title" ></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="This field is required" required></label>
+                        <label class="top">Cell Phone <input type="tel" name="phone" ></label>
+                        <label class="top">Business Name* <input type="text" name="businessName" placeholder="This field is required" required minlength="2"></label>
+                        <label class="top">Business Address <input type="text" name="businessAdress" ></label>
+                        <label class="top">Business Website <input type="url" name="businessWebsite" ></label>
+                        <label class="top">Business Description  <textarea name="businessDescription"></textarea></label>                       
+                        <label class="top">Membership Level
+                            <select name="membershipLevel">
+                                <option value="">Select a Membership Level</option>    
+                                <option value="non-profit">Non-profit ($100 annual)</option>
+                                <option value="bronze">Bronze ($200 annual)</option>
+                                <option value="silver">Silver ($400 annual)</option>
+                                <option value="gold">Gold ($1000 annual)</option>
+                            </select>
+                        </label>                                                    
+                        <input type="submit" value="JOIN THE CHAMBER" class="joinBtn"> 
+
+                    </form>
+                    
+                </div>
 
 
+
+                <hr class="join-hr">
+
+                <div class="levels">                  
+                <h2>MEMBERSHIP LEVELS</h2>  
+                <div class="levels-grid">
+                    <section>
+                        <h3>GOLD</h3>
+                        <p>Annual fee: $1000</p>
+                        <p>High presence in directory listings<br/>
+                            Monthly business trainings<br/>
+                            Professional social media posts<br/>
+                            Luncheon tickets<br/>
+                            High level of sponsorships<br/>
+                            Professional website<br/>
+                            Daily professional email marketing</p>
+                    </section>
+                    <section>
+                        <h3>SILVER</h3>
+                        <p>Annual fee: $400</p>
+                        <p>High presence in directory listings<br/>
+                            Quarterly business trainings<br/>
+                            Professional social media posts<br/>
+                            Luncheon tickets<br/>
+                            High level of sponsorships<br/>
+                            Professional email marketing three times a week</p>
+                    </section>
+                    <section>
+                        <h3>BRONZE</h3>
+                        <p>Annual fee: $200</p>
+                        <p>Moderate presence in directory listings<br/>
+                            Quarterly business trainings<br/>
+                            Professional social media posts<br/>
+                            Luncheon tickets<br/>
+                            Medium level of sponsorships<br/>
+                            Professional email marketing twice a week</p>
+                    </section>         
+                    <section>
+                        <h3>NON-PROFIT</h3>
+                        <p>Annual fee: $100</p>
+                        <p>Moderate presence in directory listings<br/>
+                            Biannual business training<br/>
+                            Professional social media posts<br/>
+                            Luncheon tickets<br/>
+                            Medium level of sponsorships<br/>
+                            Professional email marketing once a week</p>
+                    </section>
+                </div>
+                </div>
             </div>
-                      
-            
-        </div>
 
+
+        </div>
     </main>    
     <footer>        
         <div class="contact">

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Contact Rivera City Chamber of Commerce">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+   
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+            <section>
+                <p>RCCC</p>
+                <div></div>
+                <p>Rivera City<br/>Chamber of<br/>Commerce</p>    
+            </section>
+            </a> 
+            
+            <a class="menu" href="#" onclick="openClose()"><i id="open" class="material-icons">menu</i></a>
+            <nav>
+                <ul class="nonResponsive">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rivera.html">Rivera</a></li>
+                    <li><a href="join.html" >Join</a></li>
+                    <li><a href="directory.html" >Directory</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>  
+        </div>  
+    </header>    
+    <main>       
+        <div class="main-container">
+            <h2 class="main-title">CONTACT US</h2>  
+            <p>It is our pleasure to answer your questions. For your convenience you can choose the means of contact you prefer.</p>
+            <hr class="chr">
+           
+            <div class="contact-container">
+                <div class="form-container">                
+                    <form method="get" action="thanks_contact.html" class="contact-form">                        
+                            
+                        <label id="top1" class="top">Name* <input type="text" name="name" placeholder="This field is required" required pattern="[a-zA-Z'-'\s]{5,}"></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="This field is required" required></label>
+                        <label class="top">Cell Phone <input type="tel" name="phone" ></label>                        
+                        <label class="top">Comments<textarea name="comments"></textarea></label>                       
+                                                                        
+                        <input type="submit" value="SEND YOUR MESSAGE" class="cBtn"> 
+
+                    </form>
+                    
+                </div>
+
+                <hr class="c-hr">
+
+                <div class="map">                  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54774.08988364631!2d-55.55038569451743!3d-30.903983561817782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a9feec4125885f%3A0xf22b95e7bd8ced7a!2s40000%20Rivera%2C%20Departamento%20de%20Rivera!5e0!3m2!1ses-419!2suy!4v1639635483108!5m2!1ses-419!2suy" width="320" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="cinfo">
+                    <section>
+                        <h2>CONTACT INFORMATION</h2>
+                        <p>Rivera City 40000, UY</p>
+                        <p>Phone: 598 462-1234</p>
+                        <p>Email: info@rccc.com.uy</p>
+                    </section>                  
+                
+                </div>
+
+                <div class="directors">
+                    <section>
+                        <h2>BOARD OF DIRECTORS</h2>
+                        <p>Principal Director: Marcos Castro</p>
+                        <p>Marketing Director: Ian Botta</p>
+                        <p>Commercial Director: Ignacio Alvez</p>
+                        <p>Finance Director: Ismael Cabrera</p>
+                    </section>          
+                
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </main>    
+    <footer>        
+        <div class="contact">
+            <section class="contact-information">
+                <p class="contact-title">Contact information</p>
+                <p>&#10082; Rivera City 40000, UY</p>
+                <p>&#x260E; 598 462-1234</p>
+                <p>&#x2709; info@rccc.com.uy</p>
+            </section>
+            <section class="social-media">
+                <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+                <a target="_blank" href="https://twitter.com/"><img src="images/twitter.png" alt="twitter icon"></a>
+                <a target="_blank" href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="pinterest icon"></a>
+                <a target="_blank" href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube icon"></a>
+                
+            </section>    
+        </div>
+        <section class="bottom-info">
+            <p>&copy; <span id="year"></span> RCCC |  Julio Martin Sander</p>
+            <p id="updated"></p><br/>
+        </section>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/directory_data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ['Oswald', 'Nunito Sans']}});</script>
+</body>
+</html>
+

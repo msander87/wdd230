@@ -323,6 +323,44 @@
         
     }
     
+
+
+    /*joi page*/
+    .join-form{
+        margin: 0 auto;   
+        max-width: 550px;
+    }
+    form input.joinBtn{
+        font-size: 20px;
+        max-width: 400px;
+        margin: 35px auto;
+        
+    }
+    .join-hr{
+        margin: 35px 10px 30px 10px;
+    }
     
+    form label.top{
+        margin-top: 17px;
+        font-size: 19px;
+    }
+    .levels-grid{
+        gap: 15px;
+        max-width: 800px;
+        margin: 0 auto;
+        
+    }
+   
+    form label.top input, form label.top select, form label.top textarea{        
+        font-size: 17px;
+        
+    }
+    form label.top{
+        margin-top: 17px;
+        font-size: 19px;
+    }
+
+
+
 
 }

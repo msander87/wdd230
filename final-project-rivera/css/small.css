@@ -580,3 +580,162 @@ footer{
 
 
 
+/* join page */
+.join-hr{
+    margin: 27px 10px 20px 10px;
+}
+
+.join-form{
+    display: block;
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    color: #5B5B5B;
+    margin: 0 5px;   
+    padding-right: 15px;
+}
+
+form label.top{
+    display: block;    
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #5B5B5B;
+    font-size: 16px;
+}
+form label.top:first-child{
+    margin-top: 35px;
+}
+
+form label.top input, form label.top select, form label.top textarea{
+    display: block;
+    -webkit-appearance: none;
+    font-size: 14px;
+    border: none;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    background-color: rgba(0, 44, 94, 12%);
+    margin-top: 5px;
+    padding: 10px 5px 10px 10px;
+    color: #5B5B5B;
+    width: 100%;
+}
+
+form label.top textarea{
+    resize: none;
+    height: 100px;
+}
+
+form input.joinBtn{
+    border: none;
+    display: block;
+    text-align: center;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 30px auto;
+    margin-bottom: 30px;
+    color: #5B5B5B;
+    background-color: #D4AC0D;
+    max-width: 200px;
+    box-shadow: 0px 0px 3px 1px #555;
+}
+form input.joinBtn:hover{
+    box-shadow: 0px 0px 6px 2px #555;
+    transition: box-shadow 0.3s;  
+}
+
+form label.top input:required{
+    border-bottom: 2px solid #41A2FA;
+    color: rgb(199, 37, 37);
+    font-style: italic;
+    
+
+}
+form label.top input:required:valid{
+    border-bottom: none;
+    font-style: normal; 
+    color: #5B5B5B;
+}
+.levels-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 10px 5px;
+    text-align: center;
+}
+.levels-grid section{    
+    background-color: rgba(0, 44, 94, 10%);
+    padding: 5px;
+}
+.levels-grid section p:nth-child(2){
+    font-style: italic;
+}
+.levels-grid section:first-child{
+    background-color: rgba(212, 172, 13, 0.6);
+}
+.levels-grid section:nth-child(2){
+    background-color: rgba(184, 208, 230, 0.6);
+}
+.levels-grid section:nth-child(3){
+    background-color: rgba(184, 122, 42, 0.4);
+}
+.levels-grid section:last-child{
+    background-color: rgba(0, 44, 94, 10%);
+}
+
+
+
+/*contact page*/
+
+#gmap{
+    max-width: 600px;
+    
+}
+.contact-form{
+    display: block;
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    color: #5B5B5B;
+    margin: 0 5px;   
+    padding-right: 15px;
+}
+form input.cBtn{
+    border: none;
+    display: block;
+    text-align: center;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 30px auto;
+    margin-bottom: 30px;
+    color: #5B5B5B;
+    background-color: #D4AC0D;
+    max-width: 200px;
+    box-shadow: 0px 0px 3px 1px #555;
+}
+form input.cBtn:hover{
+    box-shadow: 0px 0px 6px 2px #555;
+    transition: box-shadow 0.3s;  
+}
+
+.map{
+    max-width: 320px;
+    margin: 30px auto;
+}
+.cinfo{
+    margin: 10px 5px;
+    background-color: rgba(0, 44, 94, 10%);
+}
+.cinfo section{
+    padding: 5px;
+}
+.directors{
+    margin: 10px 5px;
+    background-color: rgba(0, 44, 94, 10%);
+}
+.directors section{
+    padding: 5px;
+}
+.c-hr{
+    margin: 27px 10px 30px 10px;
+}
+#top1{
+    margin-top: 35px;
+}
+
